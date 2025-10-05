@@ -341,3 +341,49 @@ Gimana? Jadi lo bisa tau deh transaksi-transaksi yang paling signifikan di keuan
 2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
 2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
 2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:28:43,513 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:28:43,514 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:28:44,532 - INFO - Connected to Google Sheets
+2025-10-05 21:31:09,440 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:31:09,440 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:31:10,333 - INFO - Connected to Google Sheets
+2025-10-05 21:31:18,044 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:31:18,044 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:31:18,045 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:31:18,045 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:31:18,842 - INFO - Connected to Google Sheets
+2025-10-05 21:31:18,842 - INFO - Connected to Google Sheets
+2025-10-05 21:31:18,850 - INFO - GeminiClient.generate called
+2025-10-05 21:31:18,850 - INFO - GeminiClient.generate called
+2025-10-05 21:31:23,397 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text 'Berapa total pengeluaran saya bulan ini?' (How much is my total spending this month?) is a direct question asking for an aggregation of existing financial data (total expenses for the current month). It does not mention adding a new expense or income, nor does it provide details for a new transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:31:23,397 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text 'Berapa total pengeluaran saya bulan ini?' (How much is my total spending this month?) is a direct question asking for an aggregation of existing financial data (total expenses for the current month). It does not mention adding a new expense or income, nor does it provide details for a new transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:31:23,801 - INFO - GeminiClient.generate called
+2025-10-05 21:31:23,801 - INFO - GeminiClient.generate called
+2025-10-05 21:31:40,646 - DEBUG - Gemini data analysis response: Hai! Total pengeluaran lo bulan ini (Oktober 2025) itu Rp 1.818.000,00. Paling banyak sih buat bills, sekitar Rp 1.600.000,00. Terus ada juga buat uncategorized Rp 150.000,00 sama food Rp 68.000,00.
+2025-10-05 21:31:40,646 - DEBUG - Gemini data analysis response: Hai! Total pengeluaran lo bulan ini (Oktober 2025) itu Rp 1.818.000,00. Paling banyak sih buat bills, sekitar Rp 1.600.000,00. Terus ada juga buat uncategorized Rp 150.000,00 sama food Rp 68.000,00.
+2025-10-05 21:31:40,854 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:31:40,854 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:31:40,854 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:31:40,855 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:31:40,855 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:31:40,855 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:31:41,669 - INFO - Connected to Google Sheets
+2025-10-05 21:31:41,669 - INFO - Connected to Google Sheets
+2025-10-05 21:31:41,669 - INFO - Connected to Google Sheets
+2025-10-05 21:38:15,543 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:38:15,544 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:38:16,479 - INFO - Connected to Google Sheets

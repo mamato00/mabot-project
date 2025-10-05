@@ -15,14 +15,13 @@ Aplikasi chatbot keuangan pribadi yang dibangun dengan Streamlit dan ditenagai o
 
 ## 📸 Pratinjau
 
-![Chat Interface](https://via.placeholder.com/800x400?text=Chat+Interface+Preview)
-![Analytics Dashboard](https://via.placeholder.com/800x400?text=Analytics+Dashboard+Preview)
+![Example](examples/example_2.png)
 
 ## 🚀 Instalasi dan Setup
 
 ### Prasyarat
 
-- Python 3.8+
+- Python 3.9+
 - Akun Google dengan Google Sheets
 - API Key dari Google AI Studio (Gemini)
 
@@ -65,16 +64,18 @@ Buat file `.env` di root direktori proyek:
 ```
 GOOGLE_SHEETS_JSON=/path/to/your/service-account.json
 SPREADSHEET_ID=your_spreadsheet_id
+SHEET_NAME = your_sheet_name
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
 Untuk mendapatkan `SPREADSHEET_ID`:
 - Buka Google Sheets Anda
-- Lihat URL, contoh: `https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit`
+- Tambahkan Header yang diperlukan
+- Lihat URL, contoh: `https://docs.google.com/spreadsheets/d/1WJ75Y1uN2J1-fSXJ9v69FPSYS6CcgW20LjHjn-au10E/edit?usp=sharing`
 
 Untuk mendapatkan `GEMINI_API_KEY`:
 - Buka [Google AI Studio](https://makersuite.google.com/app/apikey)
-- Buat API key baru
+- Buat API key baru atau Gunakan API key Anda
 
 ### Langkah 5: Jalankan Aplikasi
 
@@ -120,7 +121,11 @@ ai-gemini-finance-chatbot/
 ├── requirements.txt          # Dependensi Python
 ├── .env                      # Environment variables (jangan di-commit)
 ├── README.md                 # Dokumentasi proyek
-└── finance_chatbot.log       # Log file (dibuat otomatis)
+├── finance_chatbot.log       # Log file (dibuat otomatis)
+└── examples/
+    ├── example_1.png
+    ├── example_2.png
+    └── example_3.png
 ```
 
 ## 🛠️ Dependensi Utama
@@ -174,6 +179,7 @@ Proyek ini open source dan dapat digunakan oleh siapa saja selama tidak melangga
 
 ## 🙏 Terima Kasih
 
+- 
 - [Streamlit](https://streamlit.io/) untuk framework aplikasi web yang luar biasa
 - [Google](https://ai.google.dev/) untuk Gemini API
 - [LangChain](https://langchain.com/) untuk framework AI
@@ -181,4 +187,4 @@ Proyek ini open source dan dapat digunakan oleh siapa saja selama tidak melangga
 
 ## 📞 Kontak
 
-Jika Anda memiliki pertanyaan atau masalah, silakan buka [issue](https://github.com/username/ai-gemini-finance-chatbot/issues) di repository ini.
+Jika Anda memiliki pertanyaan atau masalah, silakan buka [issue](https://github.com/username/mabot-project/issues) di repository ini.

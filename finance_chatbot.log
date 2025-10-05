@@ -1,0 +1,343 @@
+2025-10-05 21:01:44,269 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:01:44,270 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:01:44,271 - ERROR - Failed to connect to Google Sheets
+Traceback (most recent call last):
+  File "C:\Users\fickry\Documents\kode.id\mabot-project\streamlit-mabot-app.py", line 592, in _connect
+    creds = Credentials.from_service_account_file(self.service_account_json, scopes=scopes)
+  File "C:\Users\fickry\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\google\oauth2\service_account.py", line 264, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\fickry\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'mabot-project-95fb03f61091.json'
+2025-10-05 21:03:19,088 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:19,088 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:19,089 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:19,089 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:20,889 - INFO - Connected to Google Sheets
+2025-10-05 21:03:20,889 - INFO - Connected to Google Sheets
+2025-10-05 21:03:35,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:35,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:35,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:35,729 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:35,729 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:35,729 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:36,634 - INFO - Connected to Google Sheets
+2025-10-05 21:03:36,634 - INFO - Connected to Google Sheets
+2025-10-05 21:03:36,634 - INFO - Connected to Google Sheets
+2025-10-05 21:03:36,642 - INFO - GeminiClient.generate called
+2025-10-05 21:03:36,642 - INFO - GeminiClient.generate called
+2025-10-05 21:03:36,642 - INFO - GeminiClient.generate called
+2025-10-05 21:03:42,481 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text \"Apa saja transaksi terbesar saya?\" translates to \"What are my biggest transactions?\". This is a direct question requesting a summary or specific data points from previously recorded financial transactions, not an instruction to add a new one. It does not mention adding, recording, or inputting new data, nor does it contain specific amounts for a new transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:03:42,481 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text \"Apa saja transaksi terbesar saya?\" translates to \"What are my biggest transactions?\". This is a direct question requesting a summary or specific data points from previously recorded financial transactions, not an instruction to add a new one. It does not mention adding, recording, or inputting new data, nor does it contain specific amounts for a new transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:03:42,481 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text \"Apa saja transaksi terbesar saya?\" translates to \"What are my biggest transactions?\". This is a direct question requesting a summary or specific data points from previously recorded financial transactions, not an instruction to add a new one. It does not mention adding, recording, or inputting new data, nor does it contain specific amounts for a new transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:03:42,859 - INFO - GeminiClient.generate called
+2025-10-05 21:03:42,859 - INFO - GeminiClient.generate called
+2025-10-05 21:03:42,859 - INFO - GeminiClient.generate called
+2025-10-05 21:03:55,948 - DEBUG - Gemini data analysis response: Halo! Gw bantu cek ya transaksi terbesar lo. Berdasarkan data yang ada, ini dia beberapa transaksi terbesar lo:
+
+*   Yang paling gede itu ada pemasukan lo tanggal 01 Oktober 2025, yaitu Pendapatan bulan ini sebesar **Rp 4.000.000,00**. Mantap banget!
+*   Terus, ada dua transaksi pembayaran kosan yang lumayan gede juga, masing-masing **Rp 800.000,00**:
+    *   Tanggal 04 Oktober 2025: Bayar kosan (kategori bills).
+    *   Tanggal 01 November 2025: Pembayaran sewa kos bulan depan (kategori bills).
+*   Selain itu, ada juga pembayaran utang teman tanggal 06 Oktober 2025 (kategori uncategorized) sebesar **Rp 150.000,00**.
+
+Gimana? Jadi lo bisa tau deh transaksi-transaksi yang paling signifikan di keuangan lo. Ada lagi yang mau lo tanyain?
+2025-10-05 21:03:55,948 - DEBUG - Gemini data analysis response: Halo! Gw bantu cek ya transaksi terbesar lo. Berdasarkan data yang ada, ini dia beberapa transaksi terbesar lo:
+
+*   Yang paling gede itu ada pemasukan lo tanggal 01 Oktober 2025, yaitu Pendapatan bulan ini sebesar **Rp 4.000.000,00**. Mantap banget!
+*   Terus, ada dua transaksi pembayaran kosan yang lumayan gede juga, masing-masing **Rp 800.000,00**:
+    *   Tanggal 04 Oktober 2025: Bayar kosan (kategori bills).
+    *   Tanggal 01 November 2025: Pembayaran sewa kos bulan depan (kategori bills).
+*   Selain itu, ada juga pembayaran utang teman tanggal 06 Oktober 2025 (kategori uncategorized) sebesar **Rp 150.000,00**.
+
+Gimana? Jadi lo bisa tau deh transaksi-transaksi yang paling signifikan di keuangan lo. Ada lagi yang mau lo tanyain?
+2025-10-05 21:03:55,948 - DEBUG - Gemini data analysis response: Halo! Gw bantu cek ya transaksi terbesar lo. Berdasarkan data yang ada, ini dia beberapa transaksi terbesar lo:
+
+*   Yang paling gede itu ada pemasukan lo tanggal 01 Oktober 2025, yaitu Pendapatan bulan ini sebesar **Rp 4.000.000,00**. Mantap banget!
+*   Terus, ada dua transaksi pembayaran kosan yang lumayan gede juga, masing-masing **Rp 800.000,00**:
+    *   Tanggal 04 Oktober 2025: Bayar kosan (kategori bills).
+    *   Tanggal 01 November 2025: Pembayaran sewa kos bulan depan (kategori bills).
+*   Selain itu, ada juga pembayaran utang teman tanggal 06 Oktober 2025 (kategori uncategorized) sebesar **Rp 150.000,00**.
+
+Gimana? Jadi lo bisa tau deh transaksi-transaksi yang paling signifikan di keuangan lo. Ada lagi yang mau lo tanyain?
+2025-10-05 21:03:56,154 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:56,154 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:56,154 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:56,154 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:03:56,155 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:56,155 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:56,155 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:56,155 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:03:57,074 - INFO - Connected to Google Sheets
+2025-10-05 21:03:57,074 - INFO - Connected to Google Sheets
+2025-10-05 21:03:57,074 - INFO - Connected to Google Sheets
+2025-10-05 21:03:57,074 - INFO - Connected to Google Sheets
+2025-10-05 21:04:43,310 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,310 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,310 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,310 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,310 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,311 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,311 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,311 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,311 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,311 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,423 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,423 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,423 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,423 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,423 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,423 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:43,426 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,426 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,426 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,426 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,426 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:43,426 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:44,235 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,235 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,235 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,235 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,235 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,235 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,453 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,453 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,453 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,453 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,453 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,453 - INFO - Connected to Google Sheets
+2025-10-05 21:04:44,467 - INFO - GeminiClient.generate called
+2025-10-05 21:04:44,467 - INFO - GeminiClient.generate called
+2025-10-05 21:04:44,467 - INFO - GeminiClient.generate called
+2025-10-05 21:04:44,467 - INFO - GeminiClient.generate called
+2025-10-05 21:04:44,467 - INFO - GeminiClient.generate called
+2025-10-05 21:04:44,467 - INFO - GeminiClient.generate called
+2025-10-05 21:04:50,285 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text explicitly states a purchase ('beli bakso') with a specific amount ('10k') that just occurred ('tadi'), indicating a new expense to be recorded.",
+  "response": "Baik, pengeluaran untuk bakso sebesar 10k sudah dicatat. Terima kasih!"
+}
+```
+2025-10-05 21:04:50,285 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text explicitly states a purchase ('beli bakso') with a specific amount ('10k') that just occurred ('tadi'), indicating a new expense to be recorded.",
+  "response": "Baik, pengeluaran untuk bakso sebesar 10k sudah dicatat. Terima kasih!"
+}
+```
+2025-10-05 21:04:50,285 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text explicitly states a purchase ('beli bakso') with a specific amount ('10k') that just occurred ('tadi'), indicating a new expense to be recorded.",
+  "response": "Baik, pengeluaran untuk bakso sebesar 10k sudah dicatat. Terima kasih!"
+}
+```
+2025-10-05 21:04:50,285 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text explicitly states a purchase ('beli bakso') with a specific amount ('10k') that just occurred ('tadi'), indicating a new expense to be recorded.",
+  "response": "Baik, pengeluaran untuk bakso sebesar 10k sudah dicatat. Terima kasih!"
+}
+```
+2025-10-05 21:04:50,285 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text explicitly states a purchase ('beli bakso') with a specific amount ('10k') that just occurred ('tadi'), indicating a new expense to be recorded.",
+  "response": "Baik, pengeluaran untuk bakso sebesar 10k sudah dicatat. Terima kasih!"
+}
+```
+2025-10-05 21:04:50,285 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text explicitly states a purchase ('beli bakso') with a specific amount ('10k') that just occurred ('tadi'), indicating a new expense to be recorded.",
+  "response": "Baik, pengeluaran untuk bakso sebesar 10k sudah dicatat. Terima kasih!"
+}
+```
+2025-10-05 21:04:50,285 - INFO - GeminiClient.generate called
+2025-10-05 21:04:50,285 - INFO - GeminiClient.generate called
+2025-10-05 21:04:50,285 - INFO - GeminiClient.generate called
+2025-10-05 21:04:50,285 - INFO - GeminiClient.generate called
+2025-10-05 21:04:50,285 - INFO - GeminiClient.generate called
+2025-10-05 21:04:50,285 - INFO - GeminiClient.generate called
+2025-10-05 21:04:55,823 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 10000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli bakso",
+  "reasoning": "The text mentions '10k' for the price of bakso. 'k' is a common informal abbreviation for 'thousand', so 10k translates to 10,000."
+}
+```
+2025-10-05 21:04:55,823 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 10000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli bakso",
+  "reasoning": "The text mentions '10k' for the price of bakso. 'k' is a common informal abbreviation for 'thousand', so 10k translates to 10,000."
+}
+```
+2025-10-05 21:04:55,823 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 10000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli bakso",
+  "reasoning": "The text mentions '10k' for the price of bakso. 'k' is a common informal abbreviation for 'thousand', so 10k translates to 10,000."
+}
+```
+2025-10-05 21:04:55,823 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 10000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli bakso",
+  "reasoning": "The text mentions '10k' for the price of bakso. 'k' is a common informal abbreviation for 'thousand', so 10k translates to 10,000."
+}
+```
+2025-10-05 21:04:55,823 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 10000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli bakso",
+  "reasoning": "The text mentions '10k' for the price of bakso. 'k' is a common informal abbreviation for 'thousand', so 10k translates to 10,000."
+}
+```
+2025-10-05 21:04:55,823 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 10000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli bakso",
+  "reasoning": "The text mentions '10k' for the price of bakso. 'k' is a common informal abbreviation for 'thousand', so 10k translates to 10,000."
+}
+```
+2025-10-05 21:04:55,823 - DEBUG - parse_amount: '10000' -> 10000.0
+2025-10-05 21:04:55,823 - DEBUG - parse_amount: '10000' -> 10000.0
+2025-10-05 21:04:55,823 - DEBUG - parse_amount: '10000' -> 10000.0
+2025-10-05 21:04:55,823 - DEBUG - parse_amount: '10000' -> 10000.0
+2025-10-05 21:04:55,823 - DEBUG - parse_amount: '10000' -> 10000.0
+2025-10-05 21:04:55,823 - DEBUG - parse_amount: '10000' -> 10000.0
+2025-10-05 21:04:56,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:56,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:56,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:56,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:56,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:56,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:56,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:04:56,031 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:56,031 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:56,031 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:56,031 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:56,031 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:56,031 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:56,031 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:04:56,898 - INFO - Connected to Google Sheets
+2025-10-05 21:04:56,898 - INFO - Connected to Google Sheets
+2025-10-05 21:04:56,898 - INFO - Connected to Google Sheets
+2025-10-05 21:04:56,898 - INFO - Connected to Google Sheets
+2025-10-05 21:04:56,898 - INFO - Connected to Google Sheets
+2025-10-05 21:04:56,898 - INFO - Connected to Google Sheets
+2025-10-05 21:04:56,898 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,004 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,006 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,825 - INFO - Connected to Google Sheets
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:06,838 - DEBUG - Appending row to sheet: ['2025-10-05T14:05:06.838351', '2025-10-05', 10000.0, 'expense', 'food', 'Beli bakso']
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,218 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,444 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:07,447 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets
+2025-10-05 21:05:08,354 - INFO - Connected to Google Sheets

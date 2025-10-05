@@ -1,0 +1,10 @@
+streamlit
+pandas
+matplotlib
+plotly
+gspread
+google-auth
+python-dotenv
+langchain
+langchain-google-genai
+dateutil

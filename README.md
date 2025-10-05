@@ -80,7 +80,7 @@ Untuk mendapatkan `GEMINI_API_KEY`:
 ### Langkah 5: Jalankan Aplikasi
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run streamlit-mabot-app.py
 ```
 
 Aplikasi akan berjalan di `http://localhost:8501`
@@ -179,7 +179,8 @@ Proyek ini open source dan dapat digunakan oleh siapa saja selama tidak melangga
 
 ## 🙏 Terima Kasih
 
-- 
+- [Hacktiv8](https://www.hacktiv8.com/) untuk pelatihan dan sertifikasi AI tanpa biaya yang keren
+- [kode.id](https://www.kode.id/) Maju Bareng AI Bersama Hacktiv8
 - [Streamlit](https://streamlit.io/) untuk framework aplikasi web yang luar biasa
 - [Google](https://ai.google.dev/) untuk Gemini API
 - [LangChain](https://langchain.com/) untuk framework AI

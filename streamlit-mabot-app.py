@@ -897,7 +897,7 @@ def main():
     initialize_state()
 
     # App header
-    st.markdown('<h1 class="main-header">💰 AI Gemini Finance Chatbot</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">💰Mabot: AI Gemini Finance Chatbot</h1>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center; color: #6c757d;">Masukkan pesan natural atau tambah transaksi manual. Aplikasi akan menyimpan ke Google Sheets.</p>', unsafe_allow_html=True)
 
     # Sidebar: settings
@@ -1319,7 +1319,7 @@ def main():
             st.text(line)
 
     st.markdown("---")
-    st.markdown('<p style="text-align: center; color: #6c757d;">Mabot : AI Gemini Finance Chatbot © 2025</p>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align: center; color: #6c757d;">Mabot : AI Gemini Finance Chatbot 2025</p>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()

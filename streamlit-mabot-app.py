@@ -71,7 +71,6 @@ logger.addHandler(ch)
 class ParseError(Exception):
     pass
 
-
 def parse_amount(text: str) -> float:
     """
     Parse amount like '50k', 'Rp 1.200.000', '1,200.50', '1000' -> float (IDR decimal)
@@ -140,6 +139,13 @@ def format_amount(amount: float) -> str:
     except Exception as e:
         logger.exception("Failed formatting amount")
         return str(amount)
+
+# Tambahkan fungsi ini di bagian utility helpers & parser
+def paginate_dataframe(df, page_size, page_num):
+    """Return a subset of the dataframe for the given page number."""
+    start_idx = (page_num - 1) * page_size
+    end_idx = start_idx + page_size
+    return df.iloc[start_idx:end_idx]
 
 # ---------------------------
 # Gemini Client with LangChain
@@ -693,6 +699,8 @@ def initialize_state():
         st.session_state.edit_mode = False
     if "edit_row_index" not in st.session_state:
         st.session_state.edit_row_index = None
+    if "current_page" not in st.session_state:
+        st.session_state.current_page = 1
     if "memory" not in st.session_state:
         st.session_state.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
@@ -1077,13 +1085,59 @@ def main():
                 # Tabs for different views
                 tab1, tab2, tab3 = st.tabs(["📋 Data Tabel", "📈 Visualisasi", "🔍 Analisis"])
                 
+                # Modifikasi bagian tab1 di dalam fungsi main()
                 with tab1:
-                    # Create a copy of the dataframe for display (without timestamp)
-                    display_df = df.copy().drop(columns=['timestamp'], errors='ignore')
+                    # Pagination settings
+                    page_size = st.slider("Jumlah data per halaman", min_value=5, max_value=50, value=10, step=5)
+                    
+                    # Get total number of pages
+                    total_rows = len(df)
+                    total_pages = max(1, (total_rows + page_size - 1) // page_size)
+                    
+                    # ✅ Fix: pastikan current_page valid
+                    if "current_page" not in st.session_state:
+                        st.session_state.current_page = 1
+                    elif st.session_state.current_page > total_pages:
+                        st.session_state.current_page = total_pages
+                    elif st.session_state.current_page < 1:
+                        st.session_state.current_page = 1
+                    
+                    # Page selection
+                    col1, col2, col3 = st.columns([1, 2, 1])
+                    with col1:
+                        if st.button("⬅️ Halaman Sebelumnya", disabled=st.session_state.get("current_page", 1) <= 1):
+                            st.session_state.current_page = max(1, st.session_state.get("current_page", 1) - 1)
+                            st.rerun()
+                    
+                    with col2:
+                        current_page = st.number_input(
+                                            "Halaman",
+                                            min_value=1,
+                                            max_value=total_pages,
+                                            value=min(st.session_state.get("current_page", 1), total_pages),
+                                            step=1
+                                        )
+                        st.session_state.current_page = current_page
+                    
+                    with col3:
+                        if st.button("Halaman Berikutnya ➡️", disabled=st.session_state.get("current_page", 1) >= total_pages):
+                            st.session_state.current_page = min(total_pages, st.session_state.get("current_page", 1) + 1)
+                            st.rerun()
+                    
+                    # Display page info
+                    st.info(f"Menampilkan halaman {current_page} dari {total_pages} (Total {total_rows} transaksi)")
+                    
+                    # Get paginated data
+                    paginated_df = paginate_dataframe(df, page_size, current_page)
+                    
+                    # Create a copy of the paginated dataframe for display (without timestamp)
+                    display_df = paginated_df.copy().drop(columns=['timestamp'], errors='ignore')
                     
                     # Add row numbers for selection (starting from 2 to account for header in Google Sheets)
+                    # We need to calculate the actual row indices in the original dataframe
+                    start_idx = (current_page - 1) * page_size
                     display_df = display_df.reset_index(drop=True)
-                    display_df.index = display_df.index + 2  # +2 because Google Sheets rows start at 1 and header is at row 1
+                    display_df.index = display_df.index + start_idx + 2  # +2 because Google Sheets rows start at 1 and header is at row 1
                     
                     # Display the dataframe with selection
                     st.markdown("### Pilih transaksi untuk diedit atau dihapus:")
@@ -1099,7 +1153,9 @@ def main():
                     # Get selected row index
                     selected_row_index = None
                     if selected_rows and selected_rows["selection"]["rows"]:
-                        selected_row_index = selected_rows["selection"]["rows"][0] + 2  # Convert to Google Sheets row index
+                        # Convert the selected row index in the paginated view to the actual row index in the original dataframe
+                        selected_row_in_page = selected_rows["selection"]["rows"][0]
+                        selected_row_index = start_idx + selected_row_in_page + 2  # Convert to Google Sheets row index
                     
                     # Action buttons
                     if selected_row_index:

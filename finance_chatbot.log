@@ -387,3 +387,2031 @@ Gimana? Jadi lo bisa tau deh transaksi-transaksi yang paling signifikan di keuan
 2025-10-05 21:38:15,543 - INFO - Gemini client initialized with LangChain
 2025-10-05 21:38:15,544 - DEBUG - Connecting to Google Sheets...
 2025-10-05 21:38:16,479 - INFO - Connected to Google Sheets
+2025-10-05 21:44:13,059 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:13,060 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:14,149 - INFO - Connected to Google Sheets
+2025-10-05 21:44:27,322 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,322 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,323 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,323 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,596 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,596 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,596 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,597 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,597 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,597 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,921 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,921 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,921 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,921 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:27,922 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,922 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,922 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:27,922 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:28,181 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,181 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,181 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,181 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,501 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,501 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,501 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,501 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,768 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,768 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,768 - INFO - Connected to Google Sheets
+2025-10-05 21:44:28,768 - INFO - Connected to Google Sheets
+2025-10-05 21:44:29,514 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:29,514 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:29,514 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:29,514 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:29,514 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:44:29,517 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:29,517 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:29,517 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:29,517 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:29,517 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:44:30,397 - INFO - Connected to Google Sheets
+2025-10-05 21:44:30,397 - INFO - Connected to Google Sheets
+2025-10-05 21:44:30,397 - INFO - Connected to Google Sheets
+2025-10-05 21:44:30,397 - INFO - Connected to Google Sheets
+2025-10-05 21:44:30,397 - INFO - Connected to Google Sheets
+2025-10-05 21:48:02,627 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:02,627 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:03,719 - INFO - Connected to Google Sheets
+2025-10-05 21:48:12,028 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:12,028 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:12,029 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:12,029 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:12,888 - INFO - Connected to Google Sheets
+2025-10-05 21:48:12,888 - INFO - Connected to Google Sheets
+2025-10-05 21:48:15,692 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:15,692 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:15,692 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:15,693 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:15,693 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:15,693 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:16,862 - INFO - Connected to Google Sheets
+2025-10-05 21:48:16,862 - INFO - Connected to Google Sheets
+2025-10-05 21:48:16,862 - INFO - Connected to Google Sheets
+2025-10-05 21:48:19,322 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:19,322 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:19,322 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:19,322 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:19,324 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:19,324 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:19,324 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:19,324 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:20,268 - INFO - Connected to Google Sheets
+2025-10-05 21:48:20,268 - INFO - Connected to Google Sheets
+2025-10-05 21:48:20,268 - INFO - Connected to Google Sheets
+2025-10-05 21:48:20,268 - INFO - Connected to Google Sheets
+2025-10-05 21:48:22,265 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:22,265 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:22,265 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:22,265 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:22,265 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:22,267 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:22,267 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:22,267 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:22,267 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:22,267 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:23,145 - INFO - Connected to Google Sheets
+2025-10-05 21:48:23,145 - INFO - Connected to Google Sheets
+2025-10-05 21:48:23,145 - INFO - Connected to Google Sheets
+2025-10-05 21:48:23,145 - INFO - Connected to Google Sheets
+2025-10-05 21:48:23,145 - INFO - Connected to Google Sheets
+2025-10-05 21:48:23,766 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:23,766 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:23,766 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:23,766 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:23,766 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:23,766 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:23,770 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:23,770 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:23,770 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:23,770 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:23,770 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:23,770 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:24,598 - INFO - Connected to Google Sheets
+2025-10-05 21:48:24,598 - INFO - Connected to Google Sheets
+2025-10-05 21:48:24,598 - INFO - Connected to Google Sheets
+2025-10-05 21:48:24,598 - INFO - Connected to Google Sheets
+2025-10-05 21:48:24,598 - INFO - Connected to Google Sheets
+2025-10-05 21:48:24,598 - INFO - Connected to Google Sheets
+2025-10-05 21:48:51,749 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:51,749 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:51,749 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:51,749 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:51,749 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:51,749 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:51,749 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:51,751 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:51,751 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:51,751 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:51,751 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:51,751 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:51,751 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:51,751 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,459 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,463 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:52,692 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:48:53,570 - INFO - Connected to Google Sheets
+2025-10-05 21:53:16,267 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:16,268 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:17,307 - INFO - Connected to Google Sheets
+2025-10-05 21:53:24,685 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:24,685 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:24,687 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:24,687 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:25,595 - INFO - Connected to Google Sheets
+2025-10-05 21:53:25,595 - INFO - Connected to Google Sheets
+2025-10-05 21:53:27,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:27,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:27,029 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:27,030 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:27,030 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:27,030 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:27,932 - INFO - Connected to Google Sheets
+2025-10-05 21:53:27,932 - INFO - Connected to Google Sheets
+2025-10-05 21:53:27,932 - INFO - Connected to Google Sheets
+2025-10-05 21:53:29,220 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:29,220 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:29,220 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:29,220 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:29,221 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:29,221 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:29,221 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:29,221 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:30,078 - INFO - Connected to Google Sheets
+2025-10-05 21:53:30,078 - INFO - Connected to Google Sheets
+2025-10-05 21:53:30,078 - INFO - Connected to Google Sheets
+2025-10-05 21:53:30,078 - INFO - Connected to Google Sheets
+2025-10-05 21:53:37,762 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:37,762 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:37,762 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:37,762 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:37,762 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:37,763 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:37,763 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:37,763 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:37,763 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:37,763 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:38,610 - INFO - Connected to Google Sheets
+2025-10-05 21:53:38,610 - INFO - Connected to Google Sheets
+2025-10-05 21:53:38,610 - INFO - Connected to Google Sheets
+2025-10-05 21:53:38,610 - INFO - Connected to Google Sheets
+2025-10-05 21:53:38,610 - INFO - Connected to Google Sheets
+2025-10-05 21:53:38,618 - INFO - GeminiClient.generate called
+2025-10-05 21:53:38,618 - INFO - GeminiClient.generate called
+2025-10-05 21:53:38,618 - INFO - GeminiClient.generate called
+2025-10-05 21:53:38,618 - INFO - GeminiClient.generate called
+2025-10-05 21:53:38,618 - INFO - GeminiClient.generate called
+2025-10-05 21:53:46,374 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text 'Apa saja transaksi terbesar saya?' translates to 'What are my biggest transactions?'. This is a direct question asking for information about existing financial data, not for recording a new transaction or engaging in general conversation. It seeks to retrieve and summarize past transaction details."
+}
+```
+2025-10-05 21:53:46,374 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text 'Apa saja transaksi terbesar saya?' translates to 'What are my biggest transactions?'. This is a direct question asking for information about existing financial data, not for recording a new transaction or engaging in general conversation. It seeks to retrieve and summarize past transaction details."
+}
+```
+2025-10-05 21:53:46,374 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text 'Apa saja transaksi terbesar saya?' translates to 'What are my biggest transactions?'. This is a direct question asking for information about existing financial data, not for recording a new transaction or engaging in general conversation. It seeks to retrieve and summarize past transaction details."
+}
+```
+2025-10-05 21:53:46,374 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text 'Apa saja transaksi terbesar saya?' translates to 'What are my biggest transactions?'. This is a direct question asking for information about existing financial data, not for recording a new transaction or engaging in general conversation. It seeks to retrieve and summarize past transaction details."
+}
+```
+2025-10-05 21:53:46,374 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": false,
+  "is_data_query": true,
+  "reasoning": "The text 'Apa saja transaksi terbesar saya?' translates to 'What are my biggest transactions?'. This is a direct question asking for information about existing financial data, not for recording a new transaction or engaging in general conversation. It seeks to retrieve and summarize past transaction details."
+}
+```
+2025-10-05 21:53:46,743 - INFO - GeminiClient.generate called
+2025-10-05 21:53:46,743 - INFO - GeminiClient.generate called
+2025-10-05 21:53:46,743 - INFO - GeminiClient.generate called
+2025-10-05 21:53:46,743 - INFO - GeminiClient.generate called
+2025-10-05 21:53:46,743 - INFO - GeminiClient.generate called
+2025-10-05 21:53:56,476 - DEBUG - Gemini data analysis response: Hai! Gw bantu cek ya transaksi terbesar lo. Mantap nih, ada pemasukan gede!
+
+Transaksi terbesar lo itu:
+1.  **Pendapatan bulan ini** sebesar **Rp 4.000.000,00** di tanggal 01/10/2025. Ini income terbesar lo.
+2.  **Pembayaran sewa kos bulan depan** sebesar **Rp 800.000,00** di tanggal 01/11/2025 (kategori bills).
+3.  **Bayar kosan** sebesar **Rp 800.000,00** di tanggal 04/10/2025 (kategori bills).
+4.  **Bayar utang teman** sebesar **Rp 150.000,00** di tanggal 06/10/2025 (kategori uncategorized).
+
+Itu dia beberapa transaksi terbesar lo, mostly pengeluaran buat kosan sama ada pemasukan yang lumayan gede.
+2025-10-05 21:53:56,476 - DEBUG - Gemini data analysis response: Hai! Gw bantu cek ya transaksi terbesar lo. Mantap nih, ada pemasukan gede!
+
+Transaksi terbesar lo itu:
+1.  **Pendapatan bulan ini** sebesar **Rp 4.000.000,00** di tanggal 01/10/2025. Ini income terbesar lo.
+2.  **Pembayaran sewa kos bulan depan** sebesar **Rp 800.000,00** di tanggal 01/11/2025 (kategori bills).
+3.  **Bayar kosan** sebesar **Rp 800.000,00** di tanggal 04/10/2025 (kategori bills).
+4.  **Bayar utang teman** sebesar **Rp 150.000,00** di tanggal 06/10/2025 (kategori uncategorized).
+
+Itu dia beberapa transaksi terbesar lo, mostly pengeluaran buat kosan sama ada pemasukan yang lumayan gede.
+2025-10-05 21:53:56,476 - DEBUG - Gemini data analysis response: Hai! Gw bantu cek ya transaksi terbesar lo. Mantap nih, ada pemasukan gede!
+
+Transaksi terbesar lo itu:
+1.  **Pendapatan bulan ini** sebesar **Rp 4.000.000,00** di tanggal 01/10/2025. Ini income terbesar lo.
+2.  **Pembayaran sewa kos bulan depan** sebesar **Rp 800.000,00** di tanggal 01/11/2025 (kategori bills).
+3.  **Bayar kosan** sebesar **Rp 800.000,00** di tanggal 04/10/2025 (kategori bills).
+4.  **Bayar utang teman** sebesar **Rp 150.000,00** di tanggal 06/10/2025 (kategori uncategorized).
+
+Itu dia beberapa transaksi terbesar lo, mostly pengeluaran buat kosan sama ada pemasukan yang lumayan gede.
+2025-10-05 21:53:56,476 - DEBUG - Gemini data analysis response: Hai! Gw bantu cek ya transaksi terbesar lo. Mantap nih, ada pemasukan gede!
+
+Transaksi terbesar lo itu:
+1.  **Pendapatan bulan ini** sebesar **Rp 4.000.000,00** di tanggal 01/10/2025. Ini income terbesar lo.
+2.  **Pembayaran sewa kos bulan depan** sebesar **Rp 800.000,00** di tanggal 01/11/2025 (kategori bills).
+3.  **Bayar kosan** sebesar **Rp 800.000,00** di tanggal 04/10/2025 (kategori bills).
+4.  **Bayar utang teman** sebesar **Rp 150.000,00** di tanggal 06/10/2025 (kategori uncategorized).
+
+Itu dia beberapa transaksi terbesar lo, mostly pengeluaran buat kosan sama ada pemasukan yang lumayan gede.
+2025-10-05 21:53:56,476 - DEBUG - Gemini data analysis response: Hai! Gw bantu cek ya transaksi terbesar lo. Mantap nih, ada pemasukan gede!
+
+Transaksi terbesar lo itu:
+1.  **Pendapatan bulan ini** sebesar **Rp 4.000.000,00** di tanggal 01/10/2025. Ini income terbesar lo.
+2.  **Pembayaran sewa kos bulan depan** sebesar **Rp 800.000,00** di tanggal 01/11/2025 (kategori bills).
+3.  **Bayar kosan** sebesar **Rp 800.000,00** di tanggal 04/10/2025 (kategori bills).
+4.  **Bayar utang teman** sebesar **Rp 150.000,00** di tanggal 06/10/2025 (kategori uncategorized).
+
+Itu dia beberapa transaksi terbesar lo, mostly pengeluaran buat kosan sama ada pemasukan yang lumayan gede.
+2025-10-05 21:53:56,682 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:56,682 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:56,682 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:56,682 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:56,682 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:56,682 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:53:56,685 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:56,685 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:56,685 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:56,685 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:56,685 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:56,685 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:53:57,539 - INFO - Connected to Google Sheets
+2025-10-05 21:53:57,539 - INFO - Connected to Google Sheets
+2025-10-05 21:53:57,539 - INFO - Connected to Google Sheets
+2025-10-05 21:53:57,539 - INFO - Connected to Google Sheets
+2025-10-05 21:53:57,539 - INFO - Connected to Google Sheets
+2025-10-05 21:53:57,539 - INFO - Connected to Google Sheets
+2025-10-05 21:55:11,975 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:11,975 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:11,975 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:11,975 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:11,975 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:11,975 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:11,975 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:11,978 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:11,978 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:11,978 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:11,978 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:11,978 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:11,978 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:11,978 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,122 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,126 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:12,994 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,021 - INFO - GeminiClient.generate called
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:13,025 - INFO - Connected to Google Sheets
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,310 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The user explicitly states 'gw mau nyatet nih' (I want to record this) and describes a new purchase ('tadi gw beli batagor') with a specific amount ('15k'). This clearly indicates an intention to add a new financial expense.",
+  "response": "Baik, saya akan catat pengeluaran Anda untuk batagor sebesar 15k. Ada lagi yang ingin dicatat?"
+}
+```
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:19,311 - INFO - GeminiClient.generate called
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,187 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 15000,
+  "type": "expense",
+  "category": "food",
+  "note": "Beli batagor",
+  "reasoning": "The amount '15k' was directly stated in the text, which translates to 15000."
+}
+```
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,188 - DEBUG - parse_amount: '15000' -> 15000.0
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,435 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:23,438 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:24,374 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,012 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,016 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,923 - INFO - Connected to Google Sheets
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:26,943 - DEBUG - Appending row to sheet: ['2025-10-05T14:55:26.943075', '2025-10-05', 15000.0, 'expense', 'food', 'Beli batagor']
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,282 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,572 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:27,575 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:55:28,478 - INFO - Connected to Google Sheets
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,370 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:16,375 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:17,233 - INFO - Connected to Google Sheets
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,989 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:20,992 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:21,853 - INFO - Connected to Google Sheets
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,481 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:22,489 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:23,289 - INFO - Connected to Google Sheets
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,432 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:29,436 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,278 - INFO - Connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:30,281 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,729 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:36,734 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,557 - INFO - Connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:37,560 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,995 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:39,998 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:40,893 - INFO - Connected to Google Sheets
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,050 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:47,054 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,016 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,019 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:48,055 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,018 - INFO - Connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:56:49,022 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,677 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,682 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,823 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:00,827 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,548 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,765 - DEBUG - User input: gw dapet duid di kantong 5k, mayan
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:01,770 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,095 - DEBUG - Gemini is_transaction raw response: ```json
+{
+  "is_transaction": true,
+  "is_data_query": false,
+  "reasoning": "The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.",
+  "response": ""
+}
+```
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,096 - DEBUG - Is transaction: True, Is data query: False, Reasoning: The text describes receiving money ('dapet duid') with a specific amount ('5k'), indicating a new income transaction.
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:10,097 - INFO - GeminiClient.generate called
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,674 - DEBUG - Gemini raw response: ```json
+{
+  "date": "2025-10-05",
+  "amount": 5000,
+  "type": "income",
+  "category": "income",
+  "note": "Uang ditemukan di kantong",
+  "reasoning": "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."
+}
+```
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,675 - DEBUG - parse_amount: '5000' -> 5000.0
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,676 - DEBUG - Parsed transaction: {'date': '2025-10-05', 'amount': 5000.0, 'type': 'income', 'category': 'income', 'note': 'Uang ditemukan di kantong', 'reasoning': "Jumlah '5k' diinterpretasikan sebagai 5000. Tidak ada perhitungan lebih lanjut yang diperlukan."}
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,881 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:13,887 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,752 - INFO - Connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:14,755 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,949 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:18,955 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,801 - INFO - Connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,806 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:19,821 - DEBUG - Appending row to sheet: ['2025-10-05T14:57:19.821095', '2025-10-05', 5000.0, 'income', 'income', 'Uang ditemukan di kantong']
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,179 - INFO - Transaction appended to Google Sheets
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,420 - INFO - Gemini client initialized with LangChain
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:20,425 - DEBUG - Connecting to Google Sheets...
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,217 - INFO - Connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets
+2025-10-05 21:57:21,222 - DEBUG - Successfully connected to Google Sheets

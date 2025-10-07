@@ -13,7 +13,7 @@ DATABASE_URL = os.getenv("DATABASE_URL", None)  # Neon database URL
 SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here")  # For session management
 
 # Google Sheets configuration
-GOOGLE_SHEETS_JSON = os.getenv("GOOGLE_SHEETS_JSON", "service_account.json")
+GOOGLE_SHEETS_JSON = os.getenv("GOOGLE_SHEETS_JSON", None)
 SHEET_NAME = os.getenv("SHEET_NAME", "transactions")
 
 # Gemini API configuration

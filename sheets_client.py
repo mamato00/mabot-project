@@ -8,12 +8,13 @@ import pandas as pd
 import gspread
 from typing import Dict, Optional, List, Any, Tuple
 from google.oauth2.service_account import Credentials
+from utils import parse_credentials_string
 
 logger = logging.getLogger("finance_chatbot")
 
 class SheetsClient:
-    def __init__(self, service_account_json: str, spreadsheet_id: str, sheet_name: str = "transactions"):
-        self.service_account_json = service_account_json
+    def __init__(self, credentials_string: str, spreadsheet_id: str, sheet_name: str = "transactions"):
+        self.service_account_json = credentials_string
         self.spreadsheet_id = spreadsheet_id
         self.sheet_name = sheet_name
         self.gc = None
@@ -27,7 +28,8 @@ class SheetsClient:
                 "https://www.googleapis.com/auth/spreadsheets",
                 "https://www.googleapis.com/auth/drive"
             ]
-            creds = Credentials.from_service_account_file(self.service_account_json, scopes=scopes)
+            credentials_info = parse_credentials_string(self.service_account_json)
+            creds = Credentials.from_service_account_info(credentials_info, scopes=scopes)
             self.gc = gspread.authorize(creds)
             self.sh = self.gc.open_by_key(self.spreadsheet_id)
             # ensure sheet exists

@@ -8,11 +8,33 @@ from datetime import datetime, date, timedelta
 from dateutil import parser as dateparser
 from typing import Dict, Optional, List, Any, Tuple
 import pandas as pd
+import json
 
 logger = logging.getLogger("finance_chatbot")
 
 class ParseError(Exception):
     pass
+
+def parse_credentials_string(credentials_string: str) -> Dict[str, Any]:
+    """
+    Parse credentials from a JSON string.
+    
+    Args:
+        credentials_string: JSON string containing the credentials
+    
+    Returns:
+        Dictionary containing the credentials
+    """
+    try:
+        credentials = json.loads(credentials_string)
+        logger.info("Successfully parsed credentials from environment variable")
+        return credentials
+    except json.JSONDecodeError as e:
+        logger.exception(f"Failed to parse credentials string: {e}")
+        raise ValueError("Invalid JSON format for GOOGLE_SHEETS_JSON. Please check your .env file.")
+    except Exception as e:
+        logger.exception(f"An unexpected error occurred while parsing credentials: {e}")
+        raise
 
 def parse_amount(text: str) -> float:
     """

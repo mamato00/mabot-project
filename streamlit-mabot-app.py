@@ -451,15 +451,24 @@ def main():
     data_analyzer = None
     spreadsheet_id = st.session_state.get("spreadsheet_id")
     
-    if spreadsheet_id:
+    # Kembali menggunakan GOOGLE_SHEETS_JSON
+    if GOOGLE_SHEETS_JSON and spreadsheet_id:
         try:
-            sheets_client = SheetsClient(service_account_json=GOOGLE_SHEETS_JSON, spreadsheet_id=spreadsheet_id, sheet_name=SHEET_NAME)
+            sheets_client = SheetsClient(
+                credentials_string=GOOGLE_SHEETS_JSON, 
+                spreadsheet_id=spreadsheet_id, 
+                sheet_name=SHEET_NAME
+            )
             data_analyzer = DataAnalyzer(sheets_client)
             add_debug("Successfully connected to Google Sheets")
         except Exception as e:
             st.warning(f"Cannot connect to Google Sheets: {e}")
             add_debug(f"Sheets connection failed: {e}")
             sheets_client = None
+    else:
+        if not GOOGLE_SHEETS_JSON:
+            st.error("Google Sheets credentials not found. Please set GOOGLE_SHEETS_JSON in your .env file.")
+    
 
     # Chat interface
     st.markdown('<h2 class="sub-header">💬 Chat Interface</h2>', unsafe_allow_html=True)

@@ -110,7 +110,7 @@ def process_user_input(user_input: str, gemini_client, data_analyzer):
 def main():
     # Custom CSS for better UI
     st.set_page_config(
-        page_title="AI Gemini Finance Chatbot", 
+        page_title="Mabot: AI Gemini Finance Chatbot", 
         layout="wide",
         initial_sidebar_state="expanded"
     )

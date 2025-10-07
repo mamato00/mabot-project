@@ -7,6 +7,5 @@ google-auth>=2.17.0
 langchain>=0.0.300
 langchain-google-genai>=0.0.5
 python-dotenv>=1.0.0
-dateutil>=2.8.2
 psycopg2-binary>=2.9.0
 passlib[bcrypt]>=1.7.0

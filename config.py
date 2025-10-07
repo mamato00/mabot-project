@@ -20,8 +20,7 @@ SHEET_NAME = os.getenv("SHEET_NAME", "transactions")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", None)  # required
 
 # Template spreadsheet URL
-TEMPLATE_SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1abc123def456ghi789jkl012mno345pqr678stu901vwxyz/edit#gid=0"
-
+TEMPLATE_SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1WJ75Y1uN2J1-fSXJ9v69FPSYS6CcgW20LjHjn-au10E"
 # --- Logging setup ---
 LOG_FILENAME = "finance_chatbot.log"
 logger = logging.getLogger("finance_chatbot")

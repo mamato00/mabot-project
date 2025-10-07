@@ -65,7 +65,7 @@ def clear_chat():
 
 def process_user_input(user_input: str, gemini_client, data_analyzer):
     """
-    Process user input and generate appropriate response.
+    Process user input and generate appropriate response with contextual memory.
     """
     if not user_input:
         return
@@ -74,44 +74,78 @@ def process_user_input(user_input: str, gemini_client, data_analyzer):
     
     with st.spinner("Sedang memproses..."):
         try:
-            # First, determine if this is a transaction, data query, or just conversation
-            is_transaction, is_data_query, reasoning, friendly_response = gemini_client.is_transaction(user_input)
-            add_debug(f"Is transaction: {is_transaction}, Is data query: {is_data_query}, Reasoning: {reasoning}")
+            # Cek apakah ada transaksi yang sedang menunggu konfirmasi
+            has_pending = "pending_transaction" in st.session_state
             
-            if is_data_query and data_analyzer:
-                # It's a data query, analyze the data
-                data_summary = data_analyzer.get_data_summary()
-                response = gemini_client.analyze_data_query(user_input, data_summary)
-                st.session_state.chat_history.append({
-                    "role": "bot", 
-                    "text": response
-                })
-            elif is_transaction:
-                # It's a transaction, parse it
-                parsed_txn = gemini_client.parse_transaction(user_input)
-                add_debug(f"Parsed transaction: {parsed_txn}")
+            # --- LOGIKA BARU DIMULAI DI SINI ---
+            if has_pending:
+                # Ada transaksi pending, gunakan konteks
+                pending_context = st.session_state.pending_transaction
+                parsed_result = gemini_client.parse_transaction_with_context(user_input, pending_context)
                 
-                # Create a friendly response with the parsed transaction
-                reasoning = parsed_txn.get("reasoning", "")
-                if reasoning:
-                    reasoning_text = f"\n\nPerhitungan: {reasoning}"
-                else:
-                    reasoning_text = ""
+                intent = parsed_result.get("intent", "new_transaction")
+                add_debug(f"Intent: {intent}")
                 
-                st.session_state.chat_history.append({
-                    "role": "bot", 
-                    "text": f"Saya telah mengenali transaksi berikut:\n\nTanggal: {parsed_txn['date']}\nJumlah: Rp {parsed_txn['amount']:,.2f}\nTipe: {parsed_txn['type']}\nKategori: {parsed_txn['category']}\nCatatan: {parsed_txn['note']}{reasoning_text}\n\nApakah Anda ingin menyimpannya?"
-                })
-                
-                # Store parsed transaction for confirmation
-                st.session_state.pending_transaction = parsed_txn
+                if intent == "update_transaction":
+                    # AI menganggap ini adalah pembaruan
+                    st.session_state.pending_transaction = parsed_result
+                    reasoning = parsed_result.get("reasoning", "")
+                    
+                    st.session_state.chat_history.append({
+                        "role": "bot", 
+                        "text": f"Baik, saya perbarui transaksinya. Berikut detailnya:\n\nTanggal: {parsed_result['date']}\nJumlah: Rp {parsed_result['amount']:,.2f}\nTipe: {parsed_result['type']}\nKategori: {parsed_result['category']}\nCatatan: {parsed_result['note']}\n\nAlasan: {reasoning}\n\nApakah Anda ingin menyimpannya?"
+                    })
+                elif intent == "new_transaction":
+                    # AI menganggap ini transaksi baru, ganti yang lama
+                    st.session_state.chat_history.append({
+                        "role": "bot", 
+                        "text": "Oke, saya anggap ini transaksi baru. Transaksi sebelumnya saya abaikan ya."
+                    })
+                    st.session_state.pending_transaction = parsed_result
+                    st.session_state.chat_history.append({
+                        "role": "bot", 
+                        "text": f"Saya telah mengenali transaksi berikut:\n\nTanggal: {parsed_result['date']}\nJumlah: Rp {parsed_result['amount']:,.2f}\nTipe: {parsed_result['type']}\nKategori: {parsed_result['category']}\nCatatan: {parsed_result['note']}\n\nApakah Anda ingin menyimpannya?"
+                    })
+                else: # conversation
+                    response = gemini_client.generate_friendly_response(user_input)
+                    st.session_state.chat_history.append({
+                        "role": "bot", 
+                        "text": response
+                    })
             else:
-                # It's just a conversation, respond naturally
-                response = gemini_client.generate_friendly_response(user_input)
-                st.session_state.chat_history.append({
-                    "role": "bot", 
-                    "text": response
-                })
+                # Tidak ada transaksi pending, gunakan logika lama
+                is_transaction, is_data_query, reasoning, friendly_response = gemini_client.is_transaction(user_input)
+                add_debug(f"Is transaction: {is_transaction}, Is data query: {is_data_query}, Reasoning: {reasoning}")
+                
+                if is_data_query and data_analyzer:
+                    data_summary = data_analyzer.get_data_summary()
+                    response = gemini_client.analyze_data_query(user_input, data_summary)
+                    st.session_state.chat_history.append({
+                        "role": "bot", 
+                        "text": response
+                    })
+                elif is_transaction:
+                    parsed_txn = gemini_client.parse_transaction(user_input)
+                    add_debug(f"Parsed transaction: {parsed_txn}")
+                    
+                    reasoning = parsed_txn.get("reasoning", "")
+                    if reasoning:
+                        reasoning_text = f"\n\nPerhitungan: {reasoning}"
+                    else:
+                        reasoning_text = ""
+                    
+                    st.session_state.chat_history.append({
+                        "role": "bot", 
+                        "text": f"Saya telah mengenali transaksi berikut:\n\nTanggal: {parsed_txn['date']}\nJumlah: Rp {parsed_txn['amount']:,.2f}\nTipe: {parsed_txn['type']}\nKategori: {parsed_txn['category']}\nCatatan: {parsed_txn['note']}{reasoning_text}\n\nApakah Anda ingin menyimpannya?"
+                    })
+                    
+                    st.session_state.pending_transaction = parsed_txn
+                else:
+                    response = gemini_client.generate_friendly_response(user_input)
+                    st.session_state.chat_history.append({
+                        "role": "bot", 
+                        "text": response
+                    })
         except Exception as e:
             st.session_state.chat_history.append({
                 "role": "bot", 

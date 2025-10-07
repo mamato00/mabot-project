@@ -150,6 +150,76 @@ class GeminiClient:
             logger.exception("Failed to parse transaction with Gemini")
             raise Exception(f"Failed to parse transaction: {e}")
 
+    def parse_transaction_with_context(self, text: str, context: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Parse transaction with context from a previous pending transaction.
+        """
+        today_str = date.today().isoformat()
+        
+        # Format context menjadi string yang mudah dibaca
+        context_str = f"""
+        Transaksi Sebelumnya yang Sedang Diproses:
+        - Tanggal: {context.get('date', 'N/A')}
+        - Jumlah: Rp {context.get('amount', 0):,.2f}
+        - Tipe: {context.get('type', 'N/A')}
+        - Kategori: {context.get('category', 'N/A')}
+        - Catatan: {context.get('note', 'N/A')}
+        """
+        
+        prompt = f"""
+        Analisis teks pengguna berikut dalam konteks transaksi sebelumnya.
+        
+        {context_str}
+        
+        Teks Pengguna Baru: "{text}"
+        
+        Tugas Anda adalah memutuskan apakah teks baru ini:
+        1. **Merupakan pembaruan** dari transaksi sebelumnya (misalnya, menambah biaya ongkir, mengubah jumlah, dll.).
+        2. **Merupakan transaksi baru** yang sama sekali berbeda.
+        3. Hanya percakapan biasa.
+        
+        Jika ini adalah pembaruan, hitung total baru dan gabungkan informasinya.
+        Jika ini adalah transaksi baru, ekstrak informasinya seperti biasa.
+        
+        Return a JSON object with these keys:
+        - intent: "update_transaction", "new_transaction", or "conversation"
+        - date: transaction date in YYYY-MM-DD format
+        - amount: numeric value without currency symbols (total if updated)
+        - type: either "expense" or "income"
+        - category: one of these categories: food, transport, shopping, bills, entertainment, health, education, income, or uncategorized
+        - note: brief description of the transaction (combine if updated)
+        - reasoning: brief explanation of your decision
+        
+        Only return valid JSON, nothing else.
+        """
+        
+        try:
+            response = self.generate(prompt, max_tokens=1024)
+            logger.debug(f"Gemini with context raw response: {response}")
+            
+            # Clean up response to ensure it's valid JSON
+            json_match = re.search(r'```json\n(.*?)\n```', response, re.DOTALL)
+            if json_match:
+                json_str = json_match.group(1)
+            else:
+                json_str = response.strip()
+            
+            parsed = json.loads(json_str)
+            
+            # Normalize values only if it's a transaction
+            if parsed.get("intent") in ["update_transaction", "new_transaction"]:
+                if "amount" in parsed:
+                    parsed["amount"] = parse_amount(str(parsed["amount"]))
+                if "category" in parsed:
+                    parsed["category"] = normalize_category(parsed.get("category"))
+            
+            return parsed
+        except Exception as e:
+            logger.exception("Failed to parse transaction with context")
+            # Fallback to parsing without context if it fails
+            logger.info("Falling back to parsing without context.")
+            return self.parse_transaction(text)
+        
     def generate_friendly_response(self, text: str) -> str:
         """
         Generate a friendly conversational response for non-transaction text.

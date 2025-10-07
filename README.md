@@ -2,144 +2,198 @@
 
 # Mabot: AI Gemini Finance Chatbot
 
-Aplikasi chatbot keuangan pribadi yang dibangun dengan Streamlit dan ditenagai oleh Google Gemini AI. Aplikasi ini memungkinkan Anda untuk mencatat transaksi keuangan dengan bahasa alami, menganalisis pengeluaran, dan menyimpan data ke Google Sheets.
+![Mabot Logo](images/logo.png)
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)](https://share.streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+Mabot adalah chatbot keuangan pribadi yang ditenagai oleh AI Gemini, dirancang untuk membantu Anda mencatat dan menganalisis transaksi keuangan dengan mudah. Dengan antarmuka yang intuitif dan kemampuan AI canggih, Mabot membuat pengelolaan keuangan menjadi lebih sederhana dan menyenangkan.
 
 ## 🌟 Fitur Utama
 
-- **Pencatatan Transaksi dengan Bahasa Alami**: Cukup ketik deskripsi transaksi seperti "Hari ini beli makan siang 50k" dan AI akan memahaminya
-- **Analisis Data Keuangan**: Tanyakan tentang pengeluaran Anda seperti "Berapa total pengeluaran makanan bulan ini?"
-- **Integrasi Google Sheets**: Semua data tersimpan secara otomatis di Google Sheets Anda
-- **Visualisasi Data**: Grafik dan diagram untuk memahami pola pengeluaran Anda
-- **Manajemen Transaksi**: Edit dan hapus transaksi yang sudah ada
-- **Mode Debug**: Untuk pengembang yang ingin melihat log dan proses di balik layar
+### 🔐 Sistem Autentikasi
+- **Login & Registrasi Aman**: Sistem login dengan database Neon yang aman
+- **Sesi Server-Side**: Manajemen sesi yang aman dengan opsi "Ingat Saya"
+- **Proteksi Data**: Data keuangan Anda terlindungi dengan enkripsi password
+
+### 📊 Manajemen Spreadsheet
+- **Integrasi Google Sheets**: Hubungkan spreadsheet Anda sendiri untuk menyimpan data
+- **Nama Kustom**: Beri nama spreadsheet sesuai keinginan untuk kemudahan identifikasi
+- **Multi-Spreadsheet**: Kelola beberapa spreadsheet untuk berbagai kebutuhan keuangan
+- **Template Siap Pakai**: Gunakan template yang telah disediakan untuk memulai dengan cepat
+
+### 🤝 Asisten AI Cerdas
+- **Pemahaman Bahasa Alami**: Cukup ketik transaksi dalam bahasa sehari-hari
+- **Parsing Otomatis**: AI akan memahami dan mengkategorikan transaksi Anda
+- **Analisis Data**: Tanyakan tentang pengeluaran, pemasukan, atau tren keuangan Anda
+- **Respons Konversasional**: Dapatkan jawaban dalam gaya bahasa yang ramah
+
+### 📈 Visualisasi & Analisis
+- **Dashboard Interaktif**: Lihat ringkasan keuangan Anda dengan grafik yang menarik
+- **Analisis Kategori**: Ketahui di mana saja uang Anda dialokasikan
+- **Tren Waktu**: Pantau perkembangan keuangan Anda dari waktu ke waktu
+- **Laporan Detail**: Dapatkan laporan mendalam tentang kondisi keuangan Anda
+
+### ✏️ Manajemen Transaksi
+- **Tambah & Edit**: Tambah transaksi baru atau edit yang sudah ada
+- **Hapus dengan Konfirmasi**: Hapus transaksi dengan dialog konfirmasi untuk mencegah kesalahan
+- **Pagination**: Navigasi mudah melalui ribuan transaksi
+- **Pencarian**: Temukan transaksi tertentu dengan fitur pencarian
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Frontend**: [Streamlit](https://streamlit.io/)
+- **Backend**: [Python](https://www.python.org/)
+- **AI**: [Google Gemini](https://ai.google.dev/)
+- **Database**: [Neon](https://neon.tech/)
+- **Spreadsheet**: [Google Sheets API](https://developers.google.com/sheets/api)
+- **Authentication**: [Passlib](https://passlib.readthedocs.io/)
 
 ## 📸 Pratinjau
 
-![Example](examples/example_2.png)
+![Example](images/example_4.png)
 
-## 🚀 Instalasi dan Setup
+## 📋 Prasyarat (Developer)
 
-### Prasyarat
+Sebelum memulai, pastikan Anda telah menyiapkan:
 
-- Python 3.9+
-- Akun Google dengan Google Sheets
-- API Key dari Google AI Studio (Gemini)
+1. **Akun Google Cloud** dengan project yang telah mengaktifkan Google Sheets API dan Google Drive API
+2. **Service Account** dengan file kunci JSON
+3. **Akun Neon** untuk database
+4. **API Key Google Gemini**
+5. **Python 3.9+** terinstal di sistem Anda
 
-### Langkah 1: Clone Repository
+## 🚀 Instalasi & Setup
+
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/ai-gemini-finance-chatbot.git
-cd ai-gemini-finance-chatbot
+git clone https://github.com/username/mabot-finance-chatbot.git
+cd mabot-finance-chatbot
 ```
 
-### Langkah 2: Instal Dependensi
+### 2. Buat Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Untuk Windows: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Langkah 3: Setup Google Service Account
+### 4. Konfigurasi Environment
 
-1. Buka [Google Cloud Console](https://console.cloud.google.com/)
-2. Buat project baru atau pilih project yang sudah ada
-3. Aktifkan Google Sheets API dan Google Drive API
-4. Buat Service Account:
-   - Pergi ke "IAM & Admin" > "Service Accounts"
-   - Klik "Create Service Account"
-   - Isi nama dan deskripsi, lalu buat
-5. Buat kunci JSON:
-   - Klik pada Service Account yang baru dibuat
-   - Pergi ke tab "Keys"
-   - Klik "Add Key" > "Create new key"
-   - Pilih "JSON" dan download
-6. Bagikan Google Sheets Anda:
-   - Buka spreadsheet yang ingin digunakan
-   - Klik "Share" > "Advanced"
-   - Tambahkan email Service Account dengan izin "Editor"
+Buat file `.env` berdasarkan template `.env.example`:
 
-### Langkah 4: Setup Environment Variables
-
-Buat file `.env` di root direktori proyek:
-
+```bash
+cp .env.example .env
 ```
-GOOGLE_SHEETS_JSON=/path/to/your/service-account.json
-SPREADSHEET_ID=your_spreadsheet_id
-SHEET_NAME = your_sheet_name
+
+Edit file `.env` dengan informasi Anda:
+
+```env
+# Database Configuration
+DATABASE_URL=postgresql://username:password@host:port/database
+
+# Google Sheets Configuration
+GOOGLE_SHEETS_JSON=path/to/your/service-account.json
+
+# Gemini API Configuration
 GEMINI_API_KEY=your_gemini_api_key
+
+# Session Management
+SECRET_KEY=your_secret_key_here
 ```
 
-Untuk mendapatkan `SPREADSHEET_ID`:
-- Buka Google Sheets Anda
-- Tambahkan Header yang diperlukan
-- Lihat URL, contoh: `https://docs.google.com/spreadsheets/d/1WJ75Y1uN2J1-fSXJ9v69FPSYS6CcgW20LjHjn-au10E/edit?usp=sharing`
+### 5. Setup Google Service Account
 
-Untuk mendapatkan `GEMINI_API_KEY`:
-- Buka [Google AI Studio](https://makersuite.google.com/app/apikey)
-- Buat API key baru atau Gunakan API key Anda
+1. Buat project di [Google Cloud Console](https://console.cloud.google.com/)
+2. Aktifkan Google Sheets API dan Google Drive API
+3. Buat service account dan download file kunci JSON
+4. Simpan file JSON dan update path di file `.env`
 
-### Langkah 5: Jalankan Aplikasi
+### 6. Jalankan Aplikasi
 
 ```bash
 streamlit run streamlit-mabot-app.py
 ```
 
-Aplikasi akan berjalan di `http://localhost:8501`
-
 ## 📖 Cara Penggunaan
 
-### Menambah Transaksi
+### 1. Registrasi & Login
+
+Buka aplikasi di browser dan daftarkan akun baru Anda:
+
+1. Klik "Register a new account"
+2. Isi username, email, dan password
+3. Setelah registrasi, login dengan kredensial Anda
+4. Opsional: Centang "Remember me for 30 days" untuk tetap login
+
+### 2. Setup Spreadsheet
+
+1. Klik link template spreadsheet yang disediakan
+2. Buat salinan template ke Google Drive Anda
+3. Bagikan spreadsheet dengan email service account Anda
+4. Kembali ke aplikasi dan masukkan URL spreadsheet
+5. Beri nama spreadsheet untuk identifikasi mudah
+6. Klik "Hubungkan Spreadsheet"
+
+### 3. Menambah Transaksi
 
 Ada dua cara untuk menambah transaksi:
 
-1. **Chat Interface**: Ketik deskripsi transaksi dalam bahasa alami:
-   - "Hari ini beli makan siang 50k"
-   - "Kemarin bayar listrik 250.000"
-   - "Gaji bulan ini 10 juta"
+#### Cara 1: Input Natural Language
+1. Ketik transaksi dalam bahasa sehari-hari, misalnya:
+   - "Hari ini beli makan siang 35k"
+   - "Kemarin dapat gaji 5 juta"
+   - "Bayar listrik 250rb bulan ini"
+2. AI akan memahami dan mengekstrak informasi transaksi
+3. Konfirmasi transaksi dan klik "Simpan Transaksi"
 
-2. **Form Manual**: Gunakan form "Tambah Transaksi Manual" di bagian bawah
+#### Cara 2: Form Manual
+1. Buka tab "Tambah Transaksi Manual"
+2. Isi semua field yang diperlukan
+3. Klik "Tambah & Simpan"
 
-### Menganalisis Data
+### 4. Analisis Data
 
-Gunakan chat interface untuk bertanya tentang data keuangan Anda:
-- "Berapa total pengeluaran saya bulan ini?"
-- "Apa kategori pengeluaran terbesar saya?"
-- "Berapa pengeluaran saya untuk transport bulan ini?"
-- "Tunjukkan transaksi terkait 'makanan'"
+1. Buka tab "Riwayat & Ringkasan"
+2. Lihat statistik umum di bagian atas
+3. Jelajahi tab "Data Tabel", "Visualisasi", atau "Analisis"
+4. Gunakan fitur pencarian untuk menemukan transaksi spesifik
 
-### Mengelola Transaksi
+### 5. Manajemen Spreadsheet
 
-1. Pergi ke tab "Riwayat & Ringkasan"
-2. Di tab "Data Tabel", pilih transaksi yang ingin diedit atau dihapus
-3. Klik tombol "Edit" atau "Hapus"
-4. Untuk edit, isi form yang muncul dan simpan perubahan
+1. Di sidebar, klik "Change Spreadsheet" untuk beralih spreadsheet
+2. Klik "Hapus" untuk menghapus spreadsheet dari akun Anda
+3. Tambahkan spreadsheet baru kapan saja
 
 ## 📁 Struktur Proyek
 
 ```
-ai-gemini-finance-chatbot/
+mabot-finance-chatbot/
+├── .env.example              # Template file konfigurasi
+├── .gitignore                # File yang diabaikan oleh Git
+├── README.md                 # File dokumentasi ini
+├── requirements.txt          # Dependencies Python
 ├── streamlit_app.py          # Aplikasi utama Streamlit
-├── requirements.txt          # Dependensi Python
-├── .env                      # Environment variables (jangan di-commit)
-├── README.md                 # Dokumentasi proyek
-├── finance_chatbot.log       # Log file (dibuat otomatis)
-└── examples/
-    ├── example_1.png
-    ├── example_2.png
-    └── example_3.png
+├── config.py                 # Konfigurasi aplikasi
+├── database.py               # Operasi database
+├── auth.py                   # Autentikasi dan manajemen sesi
+├── utils.py                  # Fungsi utilitas
+├── sheets_client.py          # Klien Google Sheets
+├── gemini_client.py          # Klien API Gemini
+└── data_analyzer.py          # Alat analisis data
 ```
-
-## 🛠️ Dependensi Utama
-
-- `streamlit`: Framework untuk aplikasi web
-- `gspread`: Library untuk berinteraksi dengan Google Sheets
-- `langchain-google-genai`: Integrasi LangChain dengan Google Gemini
-- `pandas`: Manipulasi data
-- `plotly`: Visualisasi data
-- `python-dotenv`: Manajemen environment variables
 
 ## 🤝 Kontribusi
 
-Kontribusi sangat diterima! Jika Anda ingin berkontribusi:
+Kontribusi sangat diterima! Jika Anda ingin berkontribusi pada proyek ini:
 
 1. Fork repository ini
 2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
@@ -147,31 +201,16 @@ Kontribusi sangat diterima! Jika Anda ingin berkontribusi:
 4. Push ke branch (`git push origin feature/AmazingFeature`)
 5. Buka Pull Request
 
-## 📝 Catatan Penting
+## 📝 Changelog
 
-- Pastikan file JSON Service Account disimpan dengan aman dan tidak di-commit ke repository
-- API Key Gemini juga harus dirahasiakan
-- Aplikasi ini menggunakan model Gemini 2.5 Flash yang mungkin memiliki batasan penggunaan
-- Pastikan timezone di sistem Anda sudah benar untuk pencatatan tanggal yang akurat
-
-## 🐞 Troubleshooting
-
-### Masalah Koneksi Google Sheets
-
-- Pastikan Google Sheets API dan Google Drive API sudah diaktifkan
-- Pastikan Service Account memiliki izin "Editor" pada spreadsheet
-- Periksa path ke file JSON Service Account
-
-### Masalah Parsing Transaksi
-
-- AI mungkin kesulitan dengan deskripsi yang terlalu ambigu
-- Untuk transaksi dengan catatan kompleks, gunakan form manual
-- Aktifkan mode debug untuk melihat proses parsing
-
-### Masalah Visualisasi
-
-- Pastikan data transaksi memiliki format tanggal yang benar
-- Kosongkan cache browser jika grafik tidak muncul
+### v1.0.0 (Terbaru)
+- ✨ Sistem autentikasi dengan database Neon
+- ✨ Manajemen sesi server-side dengan "Remember me"
+- ✨ Nama spreadsheet kustom
+- ✨ Fitur hapus spreadsheet dan transaksi dengan konfirmasi
+- ✨ Parsing transaksi dengan AI Gemini
+- ✨ Visualisasi data interaktif
+- ✨ Manajemen transaksi lengkap (CRUD)
 
 ## 📄 Lisensi
 
@@ -188,4 +227,14 @@ Proyek ini open source dan dapat digunakan oleh siapa saja selama tidak melangga
 
 ## 📞 Kontak
 
-Jika Anda memiliki pertanyaan atau masalah, silakan buka [issue](https://github.com/username/mabot-project/issues) di repository ini.
+Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk:
+
+- Membuka [Issue](https://github.com/mamato00/mabot-project)
+- Mengirim email ke [fawfawfaw994@gmail.com](fawfawfaw994@gmail.com)
+
+---
+
+<div align="center">
+  <p>Dibuat dengan ❤️ vibe coding oleh Saya</p>
+  <p>2025 Mabot: AI Gemini Finance Chatbot</p>
+</div>

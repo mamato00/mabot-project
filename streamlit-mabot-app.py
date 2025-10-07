@@ -1,7 +1,7 @@
 """
-Main Streamlit app for the AI Gemini Finance Chatbot.
+Main Streamlit app for the Mabot: AI Gemini Finance Chatbot.
 """
-
+import os
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -10,16 +10,21 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime
 from langchain.memory import ConversationBufferMemory
+from auth import show_login_page, logout, check_session
+from utils import extract_spreadsheet_id_from_url
+from sheets_client import SheetsClient
 
 # Import our modules
 from config import (
-    GOOGLE_SHEETS_JSON, SPREADSHEET_ID, SHEET_NAME, GEMINI_API_KEY, 
-    logger, LOG_FILENAME
+    GOOGLE_SHEETS_JSON, SHEET_NAME, GEMINI_API_KEY, 
+    logger, LOG_FILENAME, DATABASE_URL, SECRET_KEY, TEMPLATE_SPREADSHEET_URL
 )
-from utils import parse_amount, normalize_category, format_amount, paginate_dataframe
+from utils import parse_amount, normalize_category, format_amount, paginate_dataframe, extract_spreadsheet_id_from_url
 from sheets_client import SheetsClient
 from gemini_client import GeminiClient
 from data_analyzer import DataAnalyzer
+from database import Database
+from auth import show_login_page, logout, check_password
 
 # ---------------------------
 # Streamlit App
@@ -39,6 +44,13 @@ def initialize_state():
         st.session_state.current_page = 1
     if "memory" not in st.session_state:
         st.session_state.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+    if "logged_in" not in st.session_state:
+        st.session_state.logged_in = False
+    if "db" not in st.session_state:
+        if DATABASE_URL:
+            st.session_state.db = Database(DATABASE_URL)
+        else:
+            st.session_state.db = None
 
 def add_debug(msg: str):
     if st.session_state.debug_mode:
@@ -106,6 +118,114 @@ def process_user_input(user_input: str, gemini_client, data_analyzer):
                 "text": f"Maaf, saya tidak dapat memproses permintaan Anda. Error: {str(e)}"
             })
             add_debug(f"Error processing request: {e}")
+
+def show_spreadsheet_setup():
+    """Display the spreadsheet setup page with user-defined names."""
+    st.title("Setup Google Sheets")
+    
+    st.markdown("""
+    Untuk menggunakan aplikasi ini, Anda perlu menghubungkan ke Google Sheets Anda.
+    Ikuti langkah-langkah berikut:
+    """)
+    
+    # Step 1: Create a copy of the template
+    st.markdown("### Langkah 1: Buat Salinan Template")
+    st.markdown(f"""
+    1. Buka [template spreadsheet]({TEMPLATE_SPREADSHEET_URL}) di tab baru
+    2. Klik File -> Buat salinan
+    3. Beri nama spreadsheet Anda
+    4. Pilih folder Google Drive Anda
+    5. Klik OK
+    """)
+    
+    # Step 2: Share the spreadsheet with the service account
+    st.markdown("### Langkah 2: Bagikan Spreadsheet dengan Service Account")
+    st.markdown("""
+    1. Buka spreadsheet yang baru Anda buat
+    2. Klik tombol Bagikan (Share) di kanan atas
+    3. Tambahkan email service account: finance-chatbot@your-project.iam.gserviceaccount.com
+    4. Berikan izin Editor
+    5. Klik Kirim
+    """)
+    
+    # Step 3: Get the spreadsheet URL and name
+    st.markdown("### Langkah 3: Masukkan Detail Spreadsheet")
+    st.markdown("""
+    Salin URL spreadsheet Anda dari browser dan beri nama untuk memudahkan identifikasi.
+    """)
+    
+    with st.form("spreadsheet_form"):
+        spreadsheet_url = st.text_input("URL Spreadsheet", placeholder="https://docs.google.com/spreadsheets/d/...")
+        # --- PERUBAAN: User memberi nama sendiri ---
+        spreadsheet_name = st.text_input("Nama Spreadsheet (untuk identifikasi)", placeholder="Contoh: Keuangan Pribadi 2025")
+        submitted = st.form_submit_button("Hubungkan Spreadsheet")
+        
+        if submitted:
+            if not spreadsheet_url or not spreadsheet_name:
+                st.error("Silakan masukkan URL dan nama spreadsheet.")
+            else:
+                spreadsheet_id = extract_spreadsheet_id_from_url(spreadsheet_url)
+                if not spreadsheet_id:
+                    st.error("URL spreadsheet tidak valid. Pastikan Anda menyalin URL yang benar.")
+                else:
+                    # Simpan ke database dengan nama yang diberikan user
+                    db = st.session_state.get("db")
+                    user = st.session_state.get("user")
+                    if db and user:
+                        if db.add_spreadsheet(user['id'], spreadsheet_id, spreadsheet_name):
+                            st.success(f"Spreadsheet '{spreadsheet_name}' berhasil dihubungkan!")
+                            st.session_state["spreadsheet_id"] = spreadsheet_id
+                            st.rerun()
+                        else:
+                            st.error("Gagal menghubungkan spreadsheet. Silakan coba lagi.")
+                    else:
+                        st.error("Terjadi kesalahan. Silakan coba lagi.")
+    
+    # Show existing spreadsheets
+    db = st.session_state.get("db")
+    user = st.session_state.get("user")
+    if db and user:
+        spreadsheets = db.get_user_spreadsheets(user['id'])
+        if spreadsheets:
+            st.markdown("### Spreadsheet Anda")
+            for sheet in spreadsheets:
+                col1, col2, col3 = st.columns([3, 1, 1])
+                with col1:
+                    st.markdown(f"- **{sheet['spreadsheet_name']}**")
+                with col2:
+                    if st.button("Gunakan", key=f"use_sheet_{sheet['id']}"):
+                        st.session_state["spreadsheet_id"] = sheet['spreadsheet_id']
+                        st.rerun()
+                # --- PERBAIKAN DIMULAI DI SINI ---
+                with col3:
+                    if st.button("Hapus", key=f"delete_sheet_{sheet['id']}"):
+                        if st.session_state.get("spreadsheet_id") == sheet['spreadsheet_id']:
+                            st.warning("Anda sedang menggunakan spreadsheet ini. Pilih spreadsheet lain sebelum menghapus.")
+                        else:
+                            # Hanya setel flag konfirmasi, jangan lakukan apa-apa lagi
+                            st.session_state[f"confirm_delete_{sheet['id']}"] = True
+                            st.rerun()
+
+                # Tampilkan dialog konfirmasi jika flag-nya aktif
+                if st.session_state.get(f"confirm_delete_{sheet['id']}", False):
+                    with st.container(): # Bungkus dalam container untuk tata letak yang lebih baik
+                        st.warning(f"⚠️ Anda yakin ingin menghapus spreadsheet '{sheet['spreadsheet_name']}'? Tindakan ini tidak dapat dibatalkan.")
+                        col_confirm, col_cancel = st.columns(2)
+                        with col_confirm:
+                            if st.button("Ya, Hapus", key=f"confirm_yes_{sheet['id']}", type="primary"):
+                                # --- LOGIKA HAPUS YANG SEBENARNYA ADA DI SINI ---
+                                if db.delete_spreadsheet(user['id'], sheet['spreadsheet_id']):
+                                    st.success(f"Spreadsheet '{sheet['spreadsheet_name']}' telah dihapus.")
+                                    # Hapus flag konfirmasi dari session state
+                                    del st.session_state[f"confirm_delete_{sheet['id']}"]
+                                    st.rerun()
+                                else:
+                                    st.error("Gagal menghapus spreadsheet. Silakan coba lagi.")
+                        with col_cancel:
+                            if st.button("Batal", key=f"confirm_no_{sheet['id']}"):
+                                # Hapus flag konfirmasi dari session state
+                                del st.session_state[f"confirm_delete_{sheet['id']}"]
+                                st.rerun()
 
 def main():
     # Custom CSS for better UI
@@ -231,7 +351,17 @@ def main():
     """, unsafe_allow_html=True)
     
     initialize_state()
-
+    
+    # Cek sesi dan setup spreadsheet
+    if not check_session():
+        show_login_page()
+        return
+    
+    # Check if user has set up a spreadsheet
+    if "spreadsheet_id" not in st.session_state:
+        show_spreadsheet_setup()
+        return
+    
     # App header
     st.markdown('<h1 class="main-header">💰Mabot: AI Gemini Finance Chatbot</h1>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center; color: #6c757d;">Masukkan pesan natural atau tambah transaksi manual. Aplikasi akan menyimpan ke Google Sheets.</p>', unsafe_allow_html=True)
@@ -240,37 +370,56 @@ def main():
     with st.sidebar:
         st.markdown("## ⚙️ Settings")
         
-        st.text_input("Path to Google Service Account JSON", value=GOOGLE_SHEETS_JSON, key="sa_path")
-        st.text_input("Spreadsheet ID", value=SPREADSHEET_ID or "", key="spreadsheet_id_input")
-        st.text_input("Gemini API Key", value=GEMINI_API_KEY or "", type="password", key="gemini_api_key")
+        # User info
+        user = st.session_state.get("user")
+        if user:
+            st.markdown(f"**Logged in as:** {user['username']}")
+            if st.button("Logout"):
+                logout()
         
-        st.markdown("### Debug Options")
-        debug_mode = st.checkbox("Enable debug mode", value=st.session_state.debug_mode)
-        st.session_state.debug_mode = debug_mode
+        st.markdown("---")
         
-        if debug_mode and st.button("Show log file"):
-            try:
-                with open(LOG_FILENAME, "r", encoding="utf-8") as f:
-                    st.code(f.read()[-10000:])  # show tail
-            except Exception as e:
-                st.error(f"Cannot read log file: {e}")
+        # Gemini API Key
+        # gemini_api_key = st.text_input("Gemini API Key", value=GEMINI_API_KEY or "", type="password", key="gemini_api_key")
+        gemini_api_key = GEMINI_API_KEY
+        # st.markdown("---")
+        
+        # Spreadsheet info
+        spreadsheet_id = st.session_state.get("spreadsheet_id")
+        if spreadsheet_id:
+            st.markdown(f"**Spreadsheet ID:** {spreadsheet_id[:10]}...")
+            if st.button("Change Spreadsheet"):
+                del st.session_state["spreadsheet_id"]
+                st.rerun()
+        
+        # st.markdown("---")
+        
+        # st.markdown("### Debug Options")
+        # debug_mode = st.checkbox("Enable debug mode", value=st.session_state.debug_mode)
+        # st.session_state.debug_mode = debug_mode
+        
+        # if debug_mode and st.button("Show log file"):
+        #     try:
+        #         with open(LOG_FILENAME, "r", encoding="utf-8") as f:
+        #             st.code(f.read()[-10000:])  # show tail
+        #     except Exception as e:
+        #         st.error(f"Cannot read log file: {e}")
 
     # Gemini client
-    gemini_api_key = st.session_state.get("gemini_api_key")
-    if not gemini_api_key:
-        st.error("Gemini API Key is required. Please provide it in the sidebar.")
-        return
+    # if not gemini_api_key:
+    #     st.error("Gemini API Key is required. Please provide it in the sidebar.")
+    #     return
     
     gemini_client = GeminiClient(api_key=gemini_api_key)
 
     # Sheets client (connect lazily to avoid failures on load)
     sheets_client = None
     data_analyzer = None
-    sa_path = st.session_state.get("sa_path")
-    spreadsheet_id_input = st.session_state.get("spreadsheet_id_input")
-    if sa_path and spreadsheet_id_input:
+    spreadsheet_id = st.session_state.get("spreadsheet_id")
+    
+    if spreadsheet_id:
         try:
-            sheets_client = SheetsClient(service_account_json=sa_path, spreadsheet_id=spreadsheet_id_input, sheet_name=SHEET_NAME)
+            sheets_client = SheetsClient(service_account_json=GOOGLE_SHEETS_JSON, spreadsheet_id=spreadsheet_id, sheet_name=SHEET_NAME)
             data_analyzer = DataAnalyzer(sheets_client)
             add_debug("Successfully connected to Google Sheets")
         except Exception as e:

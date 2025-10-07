@@ -5,8 +5,8 @@ Google Sheets client for the finance chatbot.
 import logging
 from datetime import datetime
 import pandas as pd
-from typing import Dict, Optional, List, Any, Tuple
 import gspread
+from typing import Dict, Optional, List, Any, Tuple
 from google.oauth2.service_account import Credentials
 
 logger = logging.getLogger("finance_chatbot")

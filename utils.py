@@ -88,3 +88,18 @@ def paginate_dataframe(df, page_size, page_num):
     start_idx = (page_num - 1) * page_size
     end_idx = start_idx + page_size
     return df.iloc[start_idx:end_idx]
+
+def extract_spreadsheet_id_from_url(url: str) -> Optional[str]:
+    """
+    Extract spreadsheet ID from Google Sheets URL.
+    """
+    try:
+        # Pattern for Google Sheets URL
+        pattern = r"/spreadsheets/d/([a-zA-Z0-9-_]+)"
+        match = re.search(pattern, url)
+        if match:
+            return match.group(1)
+        return None
+    except Exception as e:
+        logger.exception(f"Failed to extract spreadsheet ID from URL: {url}")
+        return None

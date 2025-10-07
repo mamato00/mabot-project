@@ -833,7 +833,7 @@ def main():
                     )
                     st.plotly_chart(fig, use_container_width=True)
         except Exception as e:
-            st.markdown(f'<div class="error-message">Gagal memuat data: {e}</div>', unsafe_allow_html=True)
+            # st.markdown(f'<div class="error-message">Gagal memuat data: {e}</div>', unsafe_allow_html=True)
             add_debug(f"Error loading data: {e}")
     else:
         st.markdown('<div class="info-message">Hubungkan Google Sheets terlebih dahulu melalui Settings di sidebar.</div>', unsafe_allow_html=True)

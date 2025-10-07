@@ -5,8 +5,7 @@
 ![Mabot Logo](images/logo.png)
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)](https://share.streamlit.io/)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 
 Mabot adalah chatbot keuangan pribadi yang ditenagai oleh AI Gemini, dirancang untuk membantu Anda mencatat dan menganalisis transaksi keuangan dengan mudah. Dengan antarmuka yang intuitif dan kemampuan AI canggih, Mabot membuat pengelolaan keuangan menjadi lebih sederhana dan menyenangkan.
 

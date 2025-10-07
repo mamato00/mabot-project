@@ -10,6 +10,9 @@
 
 Mabot adalah chatbot keuangan pribadi yang ditenagai oleh AI Gemini, dirancang untuk membantu Anda mencatat dan menganalisis transaksi keuangan dengan mudah. Dengan antarmuka yang intuitif dan kemampuan AI canggih, Mabot membuat pengelolaan keuangan menjadi lebih sederhana dan menyenangkan.
 
+## 🚀 Coba Aplikasi ini!!
+https://mabot-project-8grjzqplzeitzb8svw44ar.streamlit.app/
+
 ## 🌟 Fitur Utama
 
 ### 🔐 Sistem Autentikasi

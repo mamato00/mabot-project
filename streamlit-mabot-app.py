@@ -177,7 +177,7 @@ def show_spreadsheet_setup():
     st.markdown("""
     1. Buka spreadsheet yang baru Anda buat
     2. Klik tombol Bagikan (Share) di kanan atas
-    3. Tambahkan email service account: finance-chatbot@your-project.iam.gserviceaccount.com
+    3. Tambahkan email service account: mabot-service-account@mabot-project.iam.gserviceaccount.com
     4. Berikan izin Editor
     5. Klik Kirim
     """)

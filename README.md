@@ -1,6 +1,6 @@
 
 
-# AI Gemini Finance Chatbot
+# Mabot: AI Gemini Finance Chatbot
 
 Aplikasi chatbot keuangan pribadi yang dibangun dengan Streamlit dan ditenagai oleh Google Gemini AI. Aplikasi ini memungkinkan Anda untuk mencatat transaksi keuangan dengan bahasa alami, menganalisis pengeluaran, dan menyimpan data ke Google Sheets.
 

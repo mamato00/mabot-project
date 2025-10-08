@@ -17,7 +17,7 @@ from sheets_client import SheetsClient
 # Import our modules
 from config import (
     GOOGLE_SHEETS_JSON, SHEET_NAME, GEMINI_API_KEY, 
-    logger, LOG_FILENAME, DATABASE_URL, SECRET_KEY, TEMPLATE_SPREADSHEET_URL
+    logger, DATABASE_URL, TEMPLATE_SPREADSHEET_URL
 )
 from utils import parse_amount, normalize_category, format_amount, paginate_dataframe, extract_spreadsheet_id_from_url
 from sheets_client import SheetsClient
@@ -669,7 +669,7 @@ def main():
                     # Display the dataframe with selection
                     st.markdown("### Pilih transaksi untuk diedit atau dihapus:")
                     selected_rows = st.dataframe(
-                        display_df.sort_values(by='date', ascending=False),
+                        display_df,
                         use_container_width=True,
                         hide_index=True,
                         selection_mode="single-row",

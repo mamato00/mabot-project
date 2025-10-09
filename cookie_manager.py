@@ -41,6 +41,7 @@ def get_session_token():
 
 def set_session_token(token: str):
     """Sets the session token in the cookie with expiration."""
+    controller = CookieController()
     if not controller:
         logger.error("CookieController is not available.")
         return False

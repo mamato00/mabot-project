@@ -107,10 +107,7 @@ def show_login_page():
                         else:
                             st.warning("Login successful, but we couldn't save your session for the next visit. You might need to log in again later.")
                         
-                        # --- PENTING: Tidak perlu st.rerun() di sini ---
-                        # Kita juga tidak perlu mengatur st.session_state['logged_in'] secara manual.
-                        # Biarkan check_session() yang melakukannya pada run berikutnya setelah cookie tersimpan.
-                        # Pesan st.success akan bertahan saat rerun terjadi.
+                        st.rerun()
                         
                     else:
                         st.error("Failed to create session. Please try again.")

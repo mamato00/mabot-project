@@ -35,20 +35,16 @@ def get_session_token():
         logger.error(f"Error getting session token: {e}")
         return None
 
-def set_session_token(token: str, expires_days: int = 30):
+def set_session_token(token: str):
     """Sets the session token in the cookie with expiration."""
     try:
         controller = get_cookie_controller()
-        # Set expiration date
-        expires_at = datetime.now() + timedelta(days=expires_days)
-        
         # Set cookie with expiration
         controller.set(
             'session_token', 
             token,
-            expires_at=expires_at
         )
-        logger.info(f"Session token saved to cookie, expires at {expires_at}.")
+        logger.info(f"Session token saved to cookie")
         return True
     except Exception as e:
         logger.error(f"Could not set session token: {e}")

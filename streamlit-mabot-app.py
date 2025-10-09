@@ -13,7 +13,7 @@ from langchain.memory import ConversationBufferMemory
 from auth import show_login_page, logout, check_session
 from utils import extract_spreadsheet_id_from_url
 from sheets_client import SheetsClient
-from cookie_manager import get_cookies
+from cookie_manager import get_cookies, get_cookie_controller
 
 # Import our modules
 from config import (
@@ -25,7 +25,7 @@ from sheets_client import SheetsClient
 from gemini_client import GeminiClient
 from data_analyzer import DataAnalyzer
 from database import Database
-from auth import show_login_page, logout, check_password
+from auth import show_login_page, logout
 
 # ---------------------------
 # Streamlit App

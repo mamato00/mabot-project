@@ -158,8 +158,6 @@ class Database:
         """Validate a session token and return user data if valid."""
         try:
             with self.connection.cursor(cursor_factory=RealDictCursor) as cursor:
-                # --- PERUBAAN DI SINI ---
-                # Pilih u.id agar konsisten dengan fungsi authenticate_user
                 cursor.execute("""
                     SELECT u.id, u.username, u.email 
                     FROM sessions s

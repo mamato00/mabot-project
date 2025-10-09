@@ -12,9 +12,8 @@ logger = logging.getLogger("finance_chatbot")
 
 def get_cookie_controller():
     """Returns a properly initialized cookie controller instance."""
-    if 'cookie_controller' not in st.session_state:
-        st.session_state.cookie_controller = CookieController()
-    return st.session_state.cookie_controller
+    cC = CookieController()
+    return cC
 
 def get_cookies():
     """Returns all cookies from the controller."""

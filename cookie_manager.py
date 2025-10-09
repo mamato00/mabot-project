@@ -24,11 +24,11 @@ except Exception as e:
 
 def get_session_token():
     """Retrieves the session token from the cookie."""
+    controller = CookieController()
     if not controller:
         logger.error("CookieController is not available.")
         return None
     try:
-        controller = CookieController()
         token = controller.get('session_token')
         if token:
             logger.info("Session token found in cookie.")

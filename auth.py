@@ -44,9 +44,9 @@ def check_session():
     Checks for a valid session token from the browser cookie.
     If a valid token is found, it populates st.session_state.
     """
-    # 1. Cek apakah user sudah login di session state saat ini (untuk performa kalau diluar streamlit)
-    if st.session_state.get("logged_in", False):
-        return True
+    # # 1. Cek apakah user sudah login di session state saat ini (untuk performa kalau diluar streamlit)
+    # if st.session_state.get("logged_in", False):
+    #     return True
 
     # 2. Jika belum, coba ambil token dari cookie
     token = get_session_token()
@@ -98,7 +98,6 @@ def show_login_page():
                 if user:
                     session_token = db.create_session(user['id'], remember_me)
                     if session_token:
-                        expires_days = 30 if remember_me else 1
                         if set_session_token(session_token):
                             message = "Login successful! You will be remembered on this browser."
                             if not remember_me:

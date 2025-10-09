@@ -30,9 +30,9 @@ def get_session_token():
     try:
         token = controller.get('session_token')
         if token:
-            logger.debug("Session token found in cookie.")
+            logger.info("Session token found in cookie.")
         else:
-            logger.debug("No session token found in cookie.")
+            logger.info("No session token found in cookie.")
         return token
     except Exception as e:
         logger.error(f"Error getting session token: {e}")

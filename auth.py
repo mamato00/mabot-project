@@ -49,16 +49,13 @@ def check_session():
     #     return True
 
     # 2. Jika belum, coba ambil token dari cookie
-    token = None
-    if "session_token" in st.session_state:
-        token = get_session_token()
-        logger.debug(f"token = {token}")
+    token = get_session_token()
+    logger.debug(f"token = {token}")
 
     if not token:
         logger.debug("No session token found in cookie.")
         return False
 
-    # 3. Jika token ditemukan, validasi dengan database
     db = st.session_state.get("db")
     if not db:
         logger.error("Database connection not found in session state.")

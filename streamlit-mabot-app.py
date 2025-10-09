@@ -271,6 +271,9 @@ def main():
         initial_sidebar_state="expanded"
     )
     
+    # Initialize cookie controller
+    get_cookie_controller()
+    
     # Add custom CSS
     st.markdown("""
     <style>

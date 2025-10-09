@@ -44,9 +44,9 @@ def check_session():
     Checks for a valid session token from the browser cookie.
     If a valid token is found, it populates st.session_state.
     """
-    # # 1. Cek apakah user sudah login di session state saat ini (untuk performa)
-    # if st.session_state.get("logged_in", False):
-    #     return True
+    # 1. Cek apakah user sudah login di session state saat ini (untuk performa)
+    if st.session_state.get("logged_in", False):
+        return True
 
     # 2. Jika belum, coba ambil token dari cookie
     token = get_session_token()
@@ -105,11 +105,10 @@ def show_login_page():
                         
                         # --- SIMPAN TOKEN KE COOKIE DENGAN PENGECEKAN ---
                         if set_session_token(session_token):
-                            st.success("Login successful! You will be remembered on this browser.")
+                            st.success("Login successful!")
                         else:
                             st.warning("Login successful, but we couldn't save your session. You might need to log in again later.")
                         
-                        st.success("Login successful!")
                         st.rerun()
                     else:
                         st.error("Failed to create session. Please try again.")

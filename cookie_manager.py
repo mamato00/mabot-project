@@ -5,45 +5,62 @@ Cookie management utilities using streamlit-cookies-manager.
 import streamlit as st
 import logging
 import time
-import os
+from datetime import datetime, timedelta
 from streamlit_cookies_controller import CookieController
 
 logger = logging.getLogger("finance_chatbot")
 
-cookieController = CookieController()
-cookies = cookieController.getAll()
+def get_cookie_controller():
+    """Returns a properly initialized cookie controller instance."""
+    if 'cookie_controller' not in st.session_state:
+        st.session_state.cookie_controller = CookieController()
+    return st.session_state.cookie_controller
 
 def get_cookies():
-    """Returns the All cookie manager instance."""
-    return cookies
+    """Returns all cookies from the controller."""
+    controller = get_cookie_controller()
+    return controller.getAll()
 
 def get_session_token():
     """Retrieves the session token from the cookie."""
-    if cookieController:
-        token = cookieController.get('session_token')
+    try:
+        controller = get_cookie_controller()
+        token = controller.get('session_token')
         if token:
             logger.debug("Session token found in cookie.")
         else:
             logger.debug("No session token found in cookie.")
         return token
-    return None
+    except Exception as e:
+        logger.error(f"Error getting session token: {e}")
+        return None
 
-def set_session_token(token: str):
-    """Sets the session token in the cookie."""
-    if cookieController:
-        cookieController.set('session_token', token)
-        logger.info("Session token saved to cookie.")
+def set_session_token(token: str, expires_days: int = 30):
+    """Sets the session token in the cookie with expiration."""
+    try:
+        controller = get_cookie_controller()
+        # Set expiration date
+        expires_at = datetime.now() + timedelta(days=expires_days)
+        
+        # Set cookie with expiration
+        controller.set(
+            'session_token', 
+            token,
+            expires_at=expires_at
+        )
+        logger.info(f"Session token saved to cookie, expires at {expires_at}.")
         return True
-    else:
-        logger.error("Could not set session token: Cookie controller not working.")
+    except Exception as e:
+        logger.error(f"Could not set session token: {e}")
         return False
 
 def delete_session_token():
     """Deletes the session token from the cookie."""
-    if cookieController:
-        cookieController.remove('session_token')
+    try:
+        controller = get_cookie_controller()
+        controller.remove('session_token')
         logger.info("Session token deleted from cookie.")
         return True
-    else:
-        logger.error("Could not delete session token: Cookie manager not ready.")
+    except Exception as e:
+        logger.error(f"Could not delete session token: {e}")
         return False

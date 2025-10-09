@@ -96,21 +96,22 @@ def show_login_page():
             if db:
                 user = db.authenticate_user(username, password)
                 if user:
-                    # Create session in database
                     session_token = db.create_session(user['id'], remember_me)
                     if session_token:
-                        # Simpan token di session state
-                        st.session_state["session_token"] = session_token
-                        st.session_state["user"] = user
-                        st.session_state["logged_in"] = True
-                        
-                        # --- SIMPAN TOKEN KE COOKIE DENGAN PENGECEKAN ---
+                        expires_days = 30 if remember_me else 1
                         if set_session_token(session_token):
-                            st.success("Login successful!")
+                            message = "Login successful! You will be remembered on this browser."
+                            if not remember_me:
+                                message = "Login successful! You will be remembered for one day."
+                            st.success(message)
                         else:
-                            st.warning("Login successful, but we couldn't save your session. You might need to log in again later.")
+                            st.warning("Login successful, but we couldn't save your session for the next visit. You might need to log in again later.")
                         
-                        st.rerun()
+                        # --- PENTING: Tidak perlu st.rerun() di sini ---
+                        # Kita juga tidak perlu mengatur st.session_state['logged_in'] secara manual.
+                        # Biarkan check_session() yang melakukannya pada run berikutnya setelah cookie tersimpan.
+                        # Pesan st.success akan bertahan saat rerun terjadi.
+                        
                     else:
                         st.error("Failed to create session. Please try again.")
                 else:

@@ -13,7 +13,7 @@ from langchain.memory import ConversationBufferMemory
 from auth import show_login_page, logout, check_session
 from utils import extract_spreadsheet_id_from_url
 from sheets_client import SheetsClient
-from cookie_manager import get_cookies, get_cookie_controller
+from cookie_manager import get_cookies
 
 # Import our modules
 from config import (
@@ -270,9 +270,6 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    
-    # Initialize cookie controller
-    get_cookie_controller()
     
     # Add custom CSS
     st.markdown("""

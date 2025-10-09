@@ -44,9 +44,9 @@ def check_session():
     Checks for a valid session token from the browser cookie.
     If a valid token is found, it populates st.session_state.
     """
-    # 1. Cek apakah user sudah login di session state saat ini (untuk performa)
-    if st.session_state.get("logged_in", False):
-        return True
+    # # 1. Cek apakah user sudah login di session state saat ini (untuk performa)
+    # if st.session_state.get("logged_in", False):
+    #     return True
 
     # 2. Jika belum, coba ambil token dari cookie
     token = get_session_token()

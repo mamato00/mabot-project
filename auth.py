@@ -5,6 +5,7 @@ Authentication and session management for the finance chatbot.
 import streamlit as st
 import logging
 from datetime import datetime, timedelta
+from cookie_manager import get_session_token, set_session_token, delete_session_token
 
 logger = logging.getLogger("finance_chatbot")
 
@@ -38,97 +39,51 @@ def check_password():
         # Password correct.
         return True
 
-def show_login_page():
-    """Display the login page"""
-    st.title("Login to Finance Chatbot")
-    st.markdown("Please enter your credentials to access the application.")
-    
-    # Create login form
-    with st.form("login_form"):
-        username = st.text_input("Username")
-        password = st.text_input("Password", type="password")
-        submitted = st.form_submit_button("Login")
-        
-        if submitted:
-            # Check credentials against database
-            db = st.session_state.get("db")
-            if db:
-                user = db.authenticate_user(username, password)
-                if user:
-                    st.session_state["user"] = user
-                    st.session_state["logged_in"] = True
-                    st.success("Login successful!")
-                    st.rerun()
-                else:
-                    st.error("Invalid username or password")
-            else:
-                st.error("Database connection error. Please try again later.")
-    
-    # Show registration link
-    st.markdown("---")
-    st.markdown("Don't have an account? [Register here](#)")
-    
-    # Registration form
-    with st.expander("Register a new account"):
-        with st.form("register_form"):
-            new_username = st.text_input("Choose a username")
-            new_email = st.text_input("Email")
-            new_password = st.text_input("Choose a password", type="password")
-            confirm_password = st.text_input("Confirm password", type="password")
-            submitted = st.form_submit_button("Register")
-            
-            if submitted:
-                if new_password != confirm_password:
-                    st.error("Passwords do not match")
-                else:
-                    db = st.session_state.get("db")
-                    if db:
-                        success, result = db.create_user(new_username, new_email, new_password)
-                        if success:
-                            st.success("Registration successful! You can now log in.")
-                        else:
-                            st.error(f"Registration failed: {result}")
-                    else:
-                        st.error("Database connection error. Please try again later.")
-
-def logout():
-    """Log out the current user"""
-    if "user" in st.session_state:
-        del st.session_state["user"]
-    if "logged_in" in st.session_state:
-        del st.session_state["logged_in"]
-    if "sheets_client" in st.session_state:
-        del st.session_state["sheets_client"]
-    if "data_analyzer" in st.session_state:
-        del st.session_state["data_analyzer"]
-    st.rerun()
-
 def check_session():
-    """Check for a valid session token and log the user in if found."""
-    if "session_token" in st.session_state:
-        token = st.session_state["session_token"]
-        db = st.session_state.get("db")
-        if db:
-            user = db.validate_session(token)
-            if user:
-                st.session_state["user"] = user
-                st.session_state["logged_in"] = True
-                return True
-            else:
-                # Token is invalid or expired
-                del st.session_state["session_token"]
-                if "user" in st.session_state:
-                    del st.session_state["user"]
-                st.session_state["logged_in"] = False
-                return False
-    return False
+    """
+    Checks for a valid session token from the browser cookie.
+    If a valid token is found, it populates st.session_state.
+    """
+    # 1. Cek apakah user sudah login di session state saat ini (untuk performa)
+    if st.session_state.get("logged_in", False):
+        return True
+
+    # 2. Jika belum, coba ambil token dari cookie
+    token = get_session_token()
+    
+    if not token:
+        logger.debug("No session token found in cookie.")
+        return False
+
+    # 3. Jika token ditemukan, validasi dengan database
+    db = st.session_state.get("db")
+    if not db:
+        logger.error("Database connection not found in session state.")
+        return False
+
+    try:
+        user = db.validate_session(token)
+        if user:
+            # Token valid, login user dan simpan info di session state
+            st.session_state["session_token"] = token
+            st.session_state["user"] = user
+            st.session_state["logged_in"] = True
+            logger.info(f"User '{user['username']}' logged in via cookie.")
+            return True
+        else:
+            # Token tidak valid (kedaluwarsa atau tidak ada di DB), hapus cookie
+            logger.warning("Invalid token found in cookie. Deleting cookie.")
+            delete_session_token()
+            return False
+    except Exception as e:
+        logger.exception("An error occurred during session validation.")
+        return False
 
 def show_login_page():
     """Display the login page with session management."""
     st.title("Login to Finance Chatbot")
     st.markdown("Please enter your credentials to access the application.")
     
-    # Create login form
     with st.form("login_form"):
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
@@ -136,17 +91,24 @@ def show_login_page():
         submitted = st.form_submit_button("Login")
         
         if submitted:
-            # Check credentials against database
             db = st.session_state.get("db")
             if db:
                 user = db.authenticate_user(username, password)
                 if user:
-                    # Create session
+                    # Create session in database
                     session_token = db.create_session(user['id'], remember_me)
                     if session_token:
+                        # Simpan token di session state
                         st.session_state["session_token"] = session_token
                         st.session_state["user"] = user
                         st.session_state["logged_in"] = True
+                        
+                        # --- SIMPAN TOKEN KE COOKIE DENGAN PENGECEKAN ---
+                        if set_session_token(session_token):
+                            st.success("Login successful! You will be remembered on this browser.")
+                        else:
+                            st.warning("Login successful, but we couldn't save your session. You might need to log in again later.")
+                        
                         st.success("Login successful!")
                         st.rerun()
                     else:
@@ -158,7 +120,7 @@ def show_login_page():
     
     # Show registration link
     st.markdown("---")
-    st.markdown("Don't have an account? [Register here](#)")
+    st.markdown("Don't have an account? Register now!")
     
     # Registration form
     with st.expander("Register a new account"):
@@ -188,22 +150,22 @@ def show_login_page():
                         st.error("Database connection error. Please try again later.")
 
 def logout():
-    """Log out the current user by destroying the session."""
-    if "session_token" in st.session_state:
-        db = st.session_state.get("db")
-        if db:
-            db.delete_session(st.session_state["session_token"])
-        del st.session_state["session_token"]
+    """Log out the current user by destroying the session and cookie."""
+    # Hapus token dari cookie jika manager siap
+    if st.session_state.get("cookie_manager_ready", False):
+        delete_session_token()
     
+    # Hapus dari session state
+    if "session_token" in st.session_state:
+        del st.session_state["session_token"]
     if "user" in st.session_state:
         del st.session_state["user"]
     if "logged_in" in st.session_state:
-        del st.session_state["logged_in"]
-    if "sheets_client" in st.session_state:
-        del st.session_state["sheets_client"]
-    if "data_analyzer" in st.session_state:
-        del st.session_state["data_analyzer"]
-    if "spreadsheet_id" in st.session_state:
-        del st.session_state["spreadsheet_id"]
+        st.session_state["logged_in"] = False
+        
+    # Hapus state lainnya
+    for key in ["sheets_client", "data_analyzer", "spreadsheet_id"]:
+        if key in st.session_state:
+            del st.session_state[key]
         
     st.rerun()

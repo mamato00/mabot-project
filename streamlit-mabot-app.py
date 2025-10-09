@@ -13,6 +13,7 @@ from langchain.memory import ConversationBufferMemory
 from auth import show_login_page, logout, check_session
 from utils import extract_spreadsheet_id_from_url
 from sheets_client import SheetsClient
+from cookie_manager import get_cookies
 
 # Import our modules
 from config import (
@@ -30,6 +31,7 @@ from auth import show_login_page, logout, check_password
 # Streamlit App
 # ---------------------------
 def initialize_state():
+    cookies = get_cookies()
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
     if "debug_mode" not in st.session_state:
@@ -155,6 +157,53 @@ def process_user_input(user_input: str, gemini_client, data_analyzer):
 
 def show_spreadsheet_setup():
     """Display the spreadsheet setup page with user-defined names."""
+
+# Show existing spreadsheets
+    db = st.session_state.get("db")
+    user = st.session_state.get("user")
+    if db and user:
+        spreadsheets = db.get_user_spreadsheets(user['id'])
+        if spreadsheets:
+            st.title("Spreadsheet Anda")
+            for sheet in spreadsheets:
+                col1, col2, col3 = st.columns([3, 1, 1])
+                with col1:
+                    st.markdown(f"- **{sheet['spreadsheet_name']}**")
+                with col2:
+                    if st.button("Gunakan", key=f"use_sheet_{sheet['id']}"):
+                        st.session_state["spreadsheet_id"] = sheet['spreadsheet_id']
+                        st.rerun()
+                # --- PERBAIKAN DIMULAI DI SINI ---
+                with col3:
+                    if st.button("Hapus", key=f"delete_sheet_{sheet['id']}"):
+                        if st.session_state.get("spreadsheet_id") == sheet['spreadsheet_id']:
+                            st.warning("Anda sedang menggunakan spreadsheet ini. Pilih spreadsheet lain sebelum menghapus.")
+                        else:
+                            # Hanya setel flag konfirmasi, jangan lakukan apa-apa lagi
+                            st.session_state[f"confirm_delete_{sheet['id']}"] = True
+                            st.rerun()
+
+                # Tampilkan dialog konfirmasi jika flag-nya aktif
+                if st.session_state.get(f"confirm_delete_{sheet['id']}", False):
+                    with st.container(): # Bungkus dalam container untuk tata letak yang lebih baik
+                        st.warning(f"⚠️ Anda yakin ingin menghapus spreadsheet '{sheet['spreadsheet_name']}'? Tindakan ini tidak dapat dibatalkan.")
+                        col_confirm, col_cancel = st.columns(2)
+                        with col_confirm:
+                            if st.button("Ya, Hapus", key=f"confirm_yes_{sheet['id']}", type="primary"):
+                                # --- LOGIKA HAPUS YANG SEBENARNYA ADA DI SINI ---
+                                if db.delete_spreadsheet(user['id'], sheet['spreadsheet_id']):
+                                    st.success(f"Spreadsheet '{sheet['spreadsheet_name']}' telah dihapus.")
+                                    # Hapus flag konfirmasi dari session state
+                                    del st.session_state[f"confirm_delete_{sheet['id']}"]
+                                    st.rerun()
+                                else:
+                                    st.error("Gagal menghapus spreadsheet. Silakan coba lagi.")
+                        with col_cancel:
+                            if st.button("Batal", key=f"confirm_no_{sheet['id']}"):
+                                # Hapus flag konfirmasi dari session state
+                                del st.session_state[f"confirm_delete_{sheet['id']}"]
+                                st.rerun()
+
     st.title("Setup Google Sheets")
     
     st.markdown("""
@@ -214,52 +263,6 @@ def show_spreadsheet_setup():
                             st.error("Gagal menghubungkan spreadsheet. Silakan coba lagi.")
                     else:
                         st.error("Terjadi kesalahan. Silakan coba lagi.")
-    
-    # Show existing spreadsheets
-    db = st.session_state.get("db")
-    user = st.session_state.get("user")
-    if db and user:
-        spreadsheets = db.get_user_spreadsheets(user['id'])
-        if spreadsheets:
-            st.markdown("### Spreadsheet Anda")
-            for sheet in spreadsheets:
-                col1, col2, col3 = st.columns([3, 1, 1])
-                with col1:
-                    st.markdown(f"- **{sheet['spreadsheet_name']}**")
-                with col2:
-                    if st.button("Gunakan", key=f"use_sheet_{sheet['id']}"):
-                        st.session_state["spreadsheet_id"] = sheet['spreadsheet_id']
-                        st.rerun()
-                # --- PERBAIKAN DIMULAI DI SINI ---
-                with col3:
-                    if st.button("Hapus", key=f"delete_sheet_{sheet['id']}"):
-                        if st.session_state.get("spreadsheet_id") == sheet['spreadsheet_id']:
-                            st.warning("Anda sedang menggunakan spreadsheet ini. Pilih spreadsheet lain sebelum menghapus.")
-                        else:
-                            # Hanya setel flag konfirmasi, jangan lakukan apa-apa lagi
-                            st.session_state[f"confirm_delete_{sheet['id']}"] = True
-                            st.rerun()
-
-                # Tampilkan dialog konfirmasi jika flag-nya aktif
-                if st.session_state.get(f"confirm_delete_{sheet['id']}", False):
-                    with st.container(): # Bungkus dalam container untuk tata letak yang lebih baik
-                        st.warning(f"⚠️ Anda yakin ingin menghapus spreadsheet '{sheet['spreadsheet_name']}'? Tindakan ini tidak dapat dibatalkan.")
-                        col_confirm, col_cancel = st.columns(2)
-                        with col_confirm:
-                            if st.button("Ya, Hapus", key=f"confirm_yes_{sheet['id']}", type="primary"):
-                                # --- LOGIKA HAPUS YANG SEBENARNYA ADA DI SINI ---
-                                if db.delete_spreadsheet(user['id'], sheet['spreadsheet_id']):
-                                    st.success(f"Spreadsheet '{sheet['spreadsheet_name']}' telah dihapus.")
-                                    # Hapus flag konfirmasi dari session state
-                                    del st.session_state[f"confirm_delete_{sheet['id']}"]
-                                    st.rerun()
-                                else:
-                                    st.error("Gagal menghapus spreadsheet. Silakan coba lagi.")
-                        with col_cancel:
-                            if st.button("Batal", key=f"confirm_no_{sheet['id']}"):
-                                # Hapus flag konfirmasi dari session state
-                                del st.session_state[f"confirm_delete_{sheet['id']}"]
-                                st.rerun()
 
 def main():
     # Custom CSS for better UI

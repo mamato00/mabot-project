@@ -31,7 +31,6 @@ from auth import show_login_page, logout, check_password
 # Streamlit App
 # ---------------------------
 def initialize_state():
-    cookies = get_cookies()
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
     if "debug_mode" not in st.session_state:
@@ -52,7 +51,7 @@ def initialize_state():
         if DATABASE_URL:
             st.session_state.db = Database(DATABASE_URL)
         else:
-            st.session_state.db = None
+            st.session_state.db = None    
 
 def add_debug(msg: str):
     if st.session_state.debug_mode:

@@ -17,7 +17,8 @@ def get_cookie_controller():
 
 def get_cookies():
     """Returns all cookies from the controller."""
-    controller = get_cookie_controller()
+    if 'cookies' not in st.session_state:
+        controller = get_cookie_controller()
     return controller.getAll()
 
 def get_session_token():

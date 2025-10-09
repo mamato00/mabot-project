@@ -49,6 +49,7 @@ def check_session():
     #     return True
 
     # 2. Jika belum, coba ambil token dari cookie
+    token = ""
     if "session_token" in st.session_state:
         token = get_session_token()
         logger.debug(f"token = {token}")

@@ -41,7 +41,7 @@ def set_session_token(token: str):
 def delete_session_token():
     """Deletes the session token from the cookie."""
     if cookieController:
-        cookieController.delete('session_token')
+        cookieController.remove('session_token')
         logger.info("Session token deleted from cookie.")
         return True
     else:

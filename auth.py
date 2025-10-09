@@ -152,8 +152,7 @@ def show_login_page():
 def logout():
     """Log out the current user by destroying the session and cookie."""
     # Hapus token dari cookie jika manager siap
-    if st.session_state.get("cookie_manager_ready", False):
-        delete_session_token()
+    delete_session_token()
     
     # Hapus dari session state
     if "session_token" in st.session_state:
